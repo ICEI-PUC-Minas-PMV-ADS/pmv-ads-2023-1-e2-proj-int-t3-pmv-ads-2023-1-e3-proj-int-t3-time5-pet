@@ -77,8 +77,8 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
  Caso de Uso
  
-      O responsável pela adoção se cadastra inicialmente através do nome, endereço (Cidade e Estado), 
-telefone de contato, login e senha. Depois cadastra o(s) pet(s) em situação de adoção com o 
+      O responsável pela adoção se cadastra inicialmente através do nome, endereço (Cidade e Estado),telefone
+de contato, login e senha. Depois cadastra o(s) pet(s) em situação de adoção com o 
 tipo de pet, raça, sexo, nome e uma foto. Alguns responsáveis são ONG’s ou Petshops.
       Os responsáveis pela posse dos pets podem ser responsáveis por mais de um pet.
       O adotante se cadastra através do nome, endereço (Cidade e Estado), telefone, login e senha e já 

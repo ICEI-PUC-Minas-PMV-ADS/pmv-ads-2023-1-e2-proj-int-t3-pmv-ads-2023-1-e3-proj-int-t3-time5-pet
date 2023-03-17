@@ -77,18 +77,20 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
  Caso de Uso
  
-  O responsável pela adoção se cadastra inicialmente através do nome, endereço (Cidade e Estado), 
+      O responsável pela adoção se cadastra inicialmente através do nome, endereço (Cidade e Estado), 
 telefone de contato, login e senha. Depois cadastra o(s) pet(s) em situação de adoção com o 
 tipo de pet, raça, sexo, nome e uma foto. Alguns responsáveis são ONG’s ou Petshops. 
-  Os responsáveis pela posse dos pets podem ser responsáveis por mais de um pet.
-  O adotante se cadastra através do nome, endereço (Cidade e Estado), telefone, login e senha e já 
+      Os responsáveis pela posse dos pets podem ser responsáveis por mais de um pet.
+  
+      O adotante se cadastra através do nome, endereço (Cidade e Estado), telefone, login e senha e já 
 define quais as preferências em relação ao tipo de pet a adotar. O requerente não encontrando 
 um pet de seu interesse para adoção na sua página inicial, acessa o painel de pets disponíveis para 
 efetuar um filtro com todas as características disponíveis dos pets em situação de adoção, como: tipo, 
 foto, raça, nome etc. Quando o adotante encontra o pet para adoção, ele sinaliza no sistema o interesse 
 no pet, e o sistema disponibiliza o contato do responsável pela adoção, quando o mesmo concordar, para 
 que ajustem as condições e finalizem o processo de adoção.
-Finalizado o processo de adoção, o responsável acessa o sistema e conclui a adoção, retirando o 
+
+      Finalizado o processo de adoção, o responsável acessa o sistema e conclui a adoção, retirando o 
 pet adotado dos demais em situação de adoção.
 
 ![image](https://user-images.githubusercontent.com/104168502/225792939-2e857404-40c2-40fd-b954-bd475673ed9b.png)

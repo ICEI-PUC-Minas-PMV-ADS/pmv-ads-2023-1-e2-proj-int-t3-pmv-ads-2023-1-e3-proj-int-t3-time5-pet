@@ -2,7 +2,7 @@
 
 `Análise e Desenv. de Sistemas`
 
-`DISCIPLINA`
+`DISCIPLINA: Projeto`
 
 `2° SEMESTRE`
 

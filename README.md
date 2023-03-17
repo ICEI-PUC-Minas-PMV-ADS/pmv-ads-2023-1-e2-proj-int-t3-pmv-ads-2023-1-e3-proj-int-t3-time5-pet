@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Astor Cezar De Souza Almeida
+* Astor Cezar de Souza Almeida
 * Danrley G. M. De Paula
 * Gabrielle Oliveira Santana
 * Julia Caroline Martins Ambrosio

@@ -75,6 +75,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-![image](https://user-images.githubusercontent.com/104168502/225791375-f80855eb-8edd-4802-920e-cb5445326fa5.png)
+![image](https://user-images.githubusercontent.com/104168502/225791586-75d8b128-d29b-4a36-af44-dff21fd1d021.png)
+
 
 

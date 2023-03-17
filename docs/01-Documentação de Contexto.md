@@ -13,31 +13,17 @@ O problema que buscamos resolver com este projeto é facilitar o processo de ado
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo geral deste trabalho é criar uma conexão entre o adotante e o doador do pet, por meio da criação de uma aplicação de cadastramento de animais, que dê aos usuários as informações adequadas sobre os pets disponíveis, contando com os históricos de saúde, comportamentos etc., a fim de facilitar o processo de adoção. Bem como, conscientizar os adotantes sobre as responsabilidades e cuidados que esse animal demandará a longo prazo.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Ter informações completas, bem estruturadas e organizadas permite que a adoção seja feita de forma mais consciente com a ampla disponibilidade de informações sobre os pets, as pessoas irão amadurecer bem a ideia e levar em consideração o fato de que terá uma companhia por um longo período de tempo, assim adotando com consciência e comprometimento, o que reduzirá o número de animais em situação de abandono.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Ainda é válido salientar que, no Brasil, é possível encontrar sites de ONGs e outros grandes institutos que apenas intermedeiam a doação de animais, já resgatados por canis próprios, não possibilitando que terceiros cadastrem ou divulguem pets que estão em lares temporários. Dessa forma, o diferencial do nosso projeto, será a criação do sistema que permitirá que qualquer pessoa física, em todo o território nacional, faça o cadastro em nosso site, tanto com intuito de adotar, quanto de doar um animal. Facilitando, assim o processo de adoção de animais e minorando a superlotação em ONGs e abrigos, dando uma nova chance para o animal encontrar um lar saudável e feliz.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Pessoas acima de 21 anos, que gostam de animais, desejam adotar um ou mais pets como companheiro(a) e que estejam dispostas a entender e seguir o processo de cuidados necessários de um pet, comprometendo-se com amor e proteção.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Voluntários e ONGs que se esforçam em propiciar um lar aos pets que se encontram em situação de abandono e/ou em lares provisórios por qualquer motivo que os impeça de mantê-los de forma definitiva sob seus cuidados.

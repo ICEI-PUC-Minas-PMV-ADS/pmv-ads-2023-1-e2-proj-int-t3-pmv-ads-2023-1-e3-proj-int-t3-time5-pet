@@ -40,16 +40,18 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |RF-004| O sistema deve permitir aos usuários o acesso via login e senha | MÉDIA |
 |RF-005| O sistema deve ser capaz de efetuar a adoção através do responsável pela posse do pet | MÉDIA |
 |RF-006| O sistema deve apresentar uma página individual dos usuários com as informações cadastradas e no caso dos adotantes, sugestões de adoção a partir das preferências que o usuário cadastrou.  | BAIXA |
-|RF-007| O sistema deve permitir o responsável pela posse de pet ser responsável por mais de um pet | ALTA |
+|RF-007| O sistema deve permitir o responsável pela posse do pet ser responsável por mais de um pet | ALTA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RNF-001| O sistema deve ser responsivo com características de uso através de computadores, notebooks e telefones celulares; | ALTA | 
+|RNF-002| O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge etc.) | ALTA |
+|RNF-003| O sistema deve ser de fácil manuseio e de boa usabilidade no mercado;  | MÉDIA |
+|RNF-004| O sistema deve ter uma boa e fácil manutenibilidade;  | MÉDIA |
+|RNF-005| O sistema deve funcionar 24 horas por dia 7 dias por semana; | MÉDIA |
+|RNF-006|O sistema deve ser seguro e permitir o acesso apenas a usuários cadastrados; | ALTA |
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):

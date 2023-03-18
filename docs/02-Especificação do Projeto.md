@@ -42,7 +42,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |RF-006| O sistema deve apresentar uma página individual dos usuários com as informações cadastradas e no caso dos adotantes, sugestões de adoção a partir das preferências que o usuário cadastrou.  | BAIXA |
 |RF-007| O sistema deve permitir o responsável pela posse do pet ser responsável por mais de um pet | ALTA |
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -55,11 +55,11 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
+ Correspondem a uma funcionalidade que deve estar presente na
   plataforma (ex: cadastro de usuário).
 - [Requisitos Não Funcionais
   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
+  Correspondem a uma característica técnica, seja de usabilidade,
   desempenho, confiabilidade, segurança ou outro (ex: suporte a
   dispositivos iOS e Android).
 Lembre-se que cada requisito deve corresponder à uma e somente uma
@@ -70,11 +70,15 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RE-001| O site não deve fornecer informações cadastrais dos responsáveis pela posse do pet, a pessoas que não tem interesse na adoção de pets; 
+|RE-002| O aplicativo deve ser construído no back-end através da linguagem C#;
+|RE-003| O aplicativo não deve conter API;
+|RE-004| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 30/06/2023;
+|RE-005| A equipe não pode subcontratar o desenvolvimento do trabalho;
+|RE-006| O sistema deve se restringir ao uso de Entity Framework;
+|RE-007| O sistema deverá se conectar com o Microsoft SQL Server ou MySQL;
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 

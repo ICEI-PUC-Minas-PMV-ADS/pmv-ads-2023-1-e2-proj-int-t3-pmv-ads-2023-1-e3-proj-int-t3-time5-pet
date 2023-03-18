@@ -26,14 +26,21 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
+<!-- As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+ -->
+ Os requisitos funcionais descrevem as possibilidades de interação dos usuários
+ 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve possibilitar o cadastro do requerente a adoção, do responsável pela posse do pet em situação de adoção, com as seguintes informações: responsável (nome, endereço, telefone), pet (raça, sexo, nome e foto) e requerente (nome, endereço, telefone tipo de pet a adotar) | ALTA | 
+|RF-002| O sistema deve fornecer os tipos de animais que o sistema irá disponibilizar para adoção. Por exemplo: Cachorro, Gato, Coelho etc.   | ALTA |
+|RF-003| O sistema deve possibilitar o filtro dos pets, para que o adotante encontre o pet de sua preferência  | MÉDIA |
+|RF-004| O sistema deve permitir aos usuários o acesso via login e senha | MÉDIA |
+|RF-005| O sistema deve ser capaz de efetuar a adoção através do responsável pela posse do pet | MÉDIA |
+|RF-006| O sistema deve apresentar uma página individual dos usuários com as informações cadastradas e no caso dos adotantes, sugestões de adoção a partir das preferências que o usuário cadastrou.  | BAIXA |
+|RF-007| O sistema deve permitir o responsável pela posse de pet ser responsável por mais de um pet | ALTA |
 
 ### Requisitos não Funcionais
 

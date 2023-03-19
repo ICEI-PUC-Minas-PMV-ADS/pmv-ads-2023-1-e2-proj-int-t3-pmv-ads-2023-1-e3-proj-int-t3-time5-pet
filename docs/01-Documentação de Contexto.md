@@ -8,8 +8,10 @@ A adoção consciente é a melhor vacina contra os maus-tratos e o abandono de a
 
 ## Problema
 O problema que buscamos resolver com este projeto é facilitar o processo de adoção de animais domésticos como cães, gatos, hamsters, coelhos e outros pets, em todo o território nacional, por meio de um sistema que forneça o maior número de informações possíveis sobre os pets disponíveis, para a realização de uma adoção responsável, que evite eventuais devoluções e frustações aos pets, já vulneráveis.
-
-
+Como objetivos específicos, podemos ressaltar:
+1.	Intermediar processo de adoção entre o adotante e o responsável; 
+2.	Fornecer informações adequadas sobre os pets disponíveis, contando com os históricos de saúde, comportamentos, para uma conscientização;
+3.	Permitir que o adotante adote, sem a necessidade de participar de feiras e eventos de adoção;
 
 ## Objetivos
 

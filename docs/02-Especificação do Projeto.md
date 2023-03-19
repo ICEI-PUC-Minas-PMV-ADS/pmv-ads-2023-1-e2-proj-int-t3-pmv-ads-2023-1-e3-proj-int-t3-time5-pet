@@ -1,21 +1,19 @@
 # Especificações do Projeto
 
-A definição dos problemas e necessidades detectados para idealizar esse projeto foi consolidada através da pesquisa de artigos e notícias publicados na Internet, que abordam o assunto e evidenciam o problema. Os detalhes levantados durante este processo foram consolidados na forma de personas e histórias de usuários.
+A definição dos problemas e necessidades detectados para idealizar esse projeto foi consolidada através da pesquisa de artigos e notícias publicados na Internet, que abordam o assunto e evidenciam o problema. Os detalhes levantados durante este processo foram consolidados na forma de personas e histórias de usuários.  
+
 ## Personas
+As personas levantadas durante o processo são representadas nas figuras que se seguem:  
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![image](https://user-images.githubusercontent.com/112135999/226174924-c7b248e0-d581-4dfd-a267-1025d5e1f3d1.png)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![image](https://user-images.githubusercontent.com/112135999/226174955-f88ef1f9-3cec-4dc5-842f-329ef64a32d9.png)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![image](https://user-images.githubusercontent.com/112135999/226174975-71f3c364-59cc-4750-bc6b-87f729fba55f.png)
+
+![image](https://user-images.githubusercontent.com/112135999/226174998-3c7d4845-bfd1-4fcf-9140-4ae789bc7342.png)
+
+![image](https://user-images.githubusercontent.com/112135999/226175012-9bafd70b-6e81-4d36-9d87-a94e88e46e26.png)
 
 ## Histórias de Usuários
 

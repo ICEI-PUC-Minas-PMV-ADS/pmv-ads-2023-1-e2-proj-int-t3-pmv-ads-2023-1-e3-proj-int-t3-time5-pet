@@ -40,7 +40,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |RF-004| O sistema deve permitir aos usuários o acesso via login e senha | MÉDIA |
 |RF-005| O sistema deve ser capaz de efetuar a adoção através do responsável pela posse do pet | MÉDIA |
 |RF-006| O sistema deve apresentar uma página individual dos usuários com as informações cadastradas e no caso dos adotantes, sugestões de adoção a partir das preferências que o usuário cadastrou.  | BAIXA |
-|RF-007| O sistema deve permitir o responsável pela posse do pet ser responsável por mais de um pet | ALTA |
+|RF-007| O sistema deve permitir o responsável pela posse do pet possa cadastrar mais de um pet | ALTA |
 
 ### Requisitos Não Funcionais
 

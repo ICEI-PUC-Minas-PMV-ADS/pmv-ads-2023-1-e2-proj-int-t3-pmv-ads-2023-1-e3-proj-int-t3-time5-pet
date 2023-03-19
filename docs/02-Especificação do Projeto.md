@@ -5,15 +5,15 @@ A definição dos problemas e necessidades detectados para idealizar esse projet
 ## Personas
 As personas levantadas durante o processo são representadas nas figuras que se seguem:  
 
-![image](https://user-images.githubusercontent.com/112135999/226174924-c7b248e0-d581-4dfd-a267-1025d5e1f3d1.png)
+![Maria](https://user-images.githubusercontent.com/112135999/226181999-7aee16a2-cb3d-4a7f-9976-80d4f4bc8dbe.png)
 
-![image](https://user-images.githubusercontent.com/112135999/226174955-f88ef1f9-3cec-4dc5-842f-329ef64a32d9.png)
+![jorge](https://user-images.githubusercontent.com/112135999/226182011-0aa54ab3-5db2-40ba-a362-6ec9b2e995c5.png)
 
-![image](https://user-images.githubusercontent.com/112135999/226174975-71f3c364-59cc-4750-bc6b-87f729fba55f.png)
+![Muriel](https://user-images.githubusercontent.com/112135999/226182018-1bd7eef9-740a-4a61-a665-1cc0c15807f0.png)
 
-![image](https://user-images.githubusercontent.com/112135999/226174998-3c7d4845-bfd1-4fcf-9140-4ae789bc7342.png)
+![John](https://user-images.githubusercontent.com/112135999/226182026-b65034e0-c51b-4a07-8a7c-7632a87a1951.png)
 
-![image](https://user-images.githubusercontent.com/112135999/226175012-9bafd70b-6e81-4d36-9d87-a94e88e46e26.png)
+![Berna](https://user-images.githubusercontent.com/112135999/226182032-55fbbd4f-ccde-4536-828c-952f01ffba2f.png)
 
 ## Histórias de Usuários
 

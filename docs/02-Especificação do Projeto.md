@@ -43,6 +43,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |RF-007| O sistema deve permitir o responsável pela posse do pet possa cadastrar mais de um pet | ALTA |
 
 ### Requisitos Não Funcionais
+Os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -53,22 +54,9 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |RNF-005| O sistema deve funcionar 24 horas por dia 7 dias por semana; | MÉDIA |
 |RNF-006|O sistema deve ser seguro e permitir o acesso apenas a usuários cadastrados; | ALTA |
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- Correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  Correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução do sistema e que se configuram como obrigações claras para o desenvolvimento do projeto são:
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|

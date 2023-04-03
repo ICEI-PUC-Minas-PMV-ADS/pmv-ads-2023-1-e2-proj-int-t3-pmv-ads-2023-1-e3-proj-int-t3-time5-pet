@@ -39,17 +39,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+ A equipe está organizada da seguinte maneira:
+ - Scrum Master: Saory N. V. Nakabori. 
+ - Equipe de Desenvolvimento: Astor Cezar de Souza Almeida, Julia C. M. Ambrosio, Livia Rosa Castanheira.
+ - Equipe de Design: Danrley G. M. de Paula, Gabrielle O. Santana.
 
 ### Processo
 
 Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, foi criado um quadro de backlogs do projeto do Trello.
-
 ![image](https://user-images.githubusercontent.com/97962041/226142364-fc60525e-981f-4859-9a19-96b100e9101f.png)
 
  

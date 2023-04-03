@@ -46,8 +46,15 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Processo
 
-Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, foi criado um quadro de backlogs do projeto do Trello.
-![image](https://user-images.githubusercontent.com/97962041/226142364-fc60525e-981f-4859-9a19-96b100e9101f.png))
+- Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, foi criado um quadro de backlogs do projeto do Trello.
+
+![2023-04-03](https://user-images.githubusercontent.com/108501459/229648074-cdc17ec2-988c-45be-a7a2-f47f650d3d9a.png)
+
+- BACKLOG: Lista de tarefas a serem trabalhadas.
+- A FAZER: Proximo foco da tarefa.
+- EM ANDAMENTO: Quando uma tarefa é iniciada, é movida para esta coluna.
+- CONCLUÍDO: Tarefas concluídas.
+
 
  
 > **Links Úteis**:

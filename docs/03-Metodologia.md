@@ -7,6 +7,13 @@ Esta seção descreve as ferramentas utilizadas pela equipe para a manutenção 
 
 ## Controle de Versão
 
+Para a gestão do código fonte será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura a seguir:
+
+![image](https://user-images.githubusercontent.com/108501459/229656717-b2d7f34e-275f-4b46-bb8c-d2c8ce92470a.png)
+
+> - Figura - Fluxo de controle do código fonte
+
+
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
@@ -26,14 +33,7 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -41,7 +41,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
  A equipe está organizada da seguinte maneira:
  - Scrum Master: Saory N. V. Nakabori. 
- - Equipe de Desenvolvimento: Astor Cezar de Souza Almeida, Julia C. M. Ambrosio, Livia Rosa Castanheira.
+ - Equipe de Desenvolvimento: Astor Cezar de Souza Almeida, Julia C. M. Ambrosio.
+ - Product Owner: Livia Rosa Castanheira.
  - Equipe de Design: Danrley G. M. de Paula, Gabrielle O. Santana.
 
 ### Processo
@@ -57,6 +58,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 
  
+
+
 > **Links Úteis**:
 > - https://trello.com/b/ppcTdshw/adocao
 

@@ -41,7 +41,7 @@ etiquetas:
 
  A equipe está organizada da seguinte maneira:
  - Scrum Master: Saory N. V. Nakabori. 
- - Equipe de Desenvolvimento: Astor Cezar de Souza Almeida, Julia C. M. Ambrosio, anrley G. M. de Paula, Gabrielle O. Santana, Saory N. V. Nakabori, Livia R. Castanheira.
+ - Equipe de Desenvolvimento: Astor Almeida, Julia Ambrosio, Danrley de Paula, Gabrielle Santana, Saory Nakabori, Livia Castanheira.
  - Product Owner: Livia Rosa Castanheira, Astor Cezar de Souza Almeida, Julia C. M. Ambrosio..
  - Equipe de Design: Danrley G. M. de Paula, Gabrielle O. Santana, Saory N. V. Nakabori.
 

@@ -14,6 +14,9 @@ Caso de teste
 
 ![Captura de Tela (343)](https://user-images.githubusercontent.com/117127986/230643318-245d1c4b-b83e-47f7-9499-aa034589270c.png)
 
+![Captura de Tela (346)](https://user-images.githubusercontent.com/117127986/230643657-a7909f70-250c-4fda-bd14-491876958539.png)
+
+
 ![Captura de Tela (344)](https://user-images.githubusercontent.com/117127986/230642737-e2480bd8-6f13-45d4-a2de-ca0ceb7b00f4.png)
 
 

@@ -8,17 +8,7 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 
 Caso de teste 
 
-![Captura de Tela (398)](https://user-images.githubusercontent.com/117127986/230652377-ca48f6a0-a118-4d15-92c1-6103d6dd12ec.png)
-
-Caso de teste 
-
-CT-02-Cadastrar pet em situação de adoção 
-
-Requisitos Associado 
-
-RF-001-O sistema deve possibilitar o cadastro de um ou mais pet com as seguintes informações: raça, sexo, nome e foto. 
-
-RF-007-O sistema deve permitir o responsável pela posse do pet possa cadastrar mais de um pet. 
+![Captura de Tela (401)](https://user-images.githubusercontent.com/117127986/230655257-81a9bdd8-482b-4665-865c-f5691fa84613.png)
 
 ![Captura de Tela (399)](https://user-images.githubusercontent.com/117127986/230652889-3ccb142d-ba7e-41f8-b826-768579b38eb4.png)
 

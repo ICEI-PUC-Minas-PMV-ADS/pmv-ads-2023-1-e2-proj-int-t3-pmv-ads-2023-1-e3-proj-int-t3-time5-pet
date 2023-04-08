@@ -1,7 +1,5 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
-
 Apresentamos abaixo os cenários de testes elaborados para a realização dos testes da aplicação interativa, demonstrando os requisitos funcionais sendo satisfeitos. 
 
  

@@ -2,9 +2,7 @@
 
 Apresentamos abaixo os cenários de testes elaborados para a realização dos testes da aplicação interativa, demonstrando os requisitos funcionais sendo satisfeitos. 
 
- 
 
-Caso de teste 
 
 ![Captura de Tela (401)](https://user-images.githubusercontent.com/117127986/230655257-81a9bdd8-482b-4665-865c-f5691fa84613.png)
 

@@ -12,7 +12,7 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 
 ![Captura de Tela (402)](https://user-images.githubusercontent.com/117127986/230655747-ff1ea18c-d215-4127-98bc-8673b3085e63.png)
 
-![Captura de Tela (537)](https://user-images.githubusercontent.com/117127986/230769468-e415f274-cb75-477f-bb17-8212cf6f8a47.png)
+![Captura de Tela (540)](https://user-images.githubusercontent.com/117127986/230772400-49f37b23-955a-4641-b8b1-fa24168f5ed2.png)
 
 ![Captura de Tela (403)](https://user-images.githubusercontent.com/117127986/230656068-f7f2ab97-08ff-4efc-b2ba-7f0ef029df7f.png)
 

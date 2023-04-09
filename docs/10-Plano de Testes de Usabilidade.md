@@ -12,7 +12,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |CTU-004| Validar se o sistema informa ao usuário todas as informações necessárias sobre os pets |
 |CTU-005| Validar a eficiência dos menus|
 
-## Método utilizado para Teste
+## Método Utilizado para Teste
 
 Para o plano de teste de usabilidade, foi utilizado o método SUS (System Usability Scale), em que uma versão da aplicação inicial é disponibilizada para teste dos usuários, onde os mesmos tentarão utilizar as funcionalidades propostas. 
 

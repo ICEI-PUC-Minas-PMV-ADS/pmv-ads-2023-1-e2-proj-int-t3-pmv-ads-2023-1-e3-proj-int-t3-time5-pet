@@ -69,8 +69,8 @@ etiquetas:
 As ferramentas empregadas no projeto são:
 
 - Editor de código: GitHub, VS Code;
-- Ferramentas de comunicação: Microsoft Teams, WhatsApp;
-- Ferramentas de desing: Figma, Canva;
+- Ferramentas de comunicação: Microsoft Teams, WhatsApp, Trello;
+- Ferramentas de desing: Figma, Canva, https://app.diagrams.net/;
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem

@@ -29,8 +29,8 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 - Figma
 
 ## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A aplicação será hospedada em SmarterASP.NET com database MySQL, através da opção Publish do Microsoft Visual Studio.
+<!-- Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 > **Links Úteis**:
 >
@@ -38,3 +38,4 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Programação colaborativa com Repl.it](https://repl.it/)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+ -->

@@ -49,7 +49,7 @@ etiquetas:
 
 - Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, foi criado um quadro de backlogs do projeto do Trello.
 
-![2023-04-03](https://user-images.githubusercontent.com/108501459/229648074-cdc17ec2-988c-45be-a7a2-f47f650d3d9a.png)
+![image](https://user-images.githubusercontent.com/104168502/230802808-a58a6a25-ee65-4f5c-863e-7ec674f844c3.png)
 
 - BACKLOG: Lista de tarefas a serem trabalhadas.
 - A FAZER: Proximo foco da tarefa.

@@ -12,5 +12,10 @@ namespace app_web_adocao.Models
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
         }
+
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Responsavel> Responsaveis { get; set; }
+
     }
+
 }

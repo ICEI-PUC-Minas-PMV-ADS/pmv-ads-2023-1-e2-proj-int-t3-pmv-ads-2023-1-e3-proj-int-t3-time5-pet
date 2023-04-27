@@ -9,6 +9,12 @@
   <ItemGroup>
     <Compile Remove="Migrations\20230426175005_Teste.cs" />
     <Compile Remove="Migrations\20230426175005_Teste.Designer.cs" />
+    <Compile Remove="Views\Index.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Controllers\Component.razor" />
+    <Content Remove="Views\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

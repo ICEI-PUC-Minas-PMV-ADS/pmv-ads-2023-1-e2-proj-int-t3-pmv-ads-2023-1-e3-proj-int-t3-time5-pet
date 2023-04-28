@@ -4,6 +4,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace app_adocao.Models
 {
+    public enum Status
+    {
+        livre, processo, adotado
+    }
+    public enum Sexo
+    {
+        M, F
+    }
     public class Pet
     {
         [Key]
@@ -20,7 +28,7 @@ namespace app_adocao.Models
         public string? Nome { get; set; }
 
         [Required]
-        public string? Status { get; set; }
+        public Status Status { get; set; }
 
         [Required(ErrorMessage = "Obrigatória escolha do Tipo de Pet!")]
         [StringLength(12, ErrorMessage = "Limite de caracteres => 12")]
@@ -30,8 +38,8 @@ namespace app_adocao.Models
         [StringLength(100, ErrorMessage = "Limite de caracteres => 100")]
         public string? Historico { get; set; }
 
-        [StringLength(20, ErrorMessage = "Limite de caracteres => 20")]
-        public string? Sexo { get; set; }
+        [StringLength(1, ErrorMessage = "Limite de caracteres => 1")]
+        public Sexo Sexo { get; set; }
 
         [Required(ErrorMessage = "Obrigatória escolha da cor do Pet!")]
         [StringLength(10, ErrorMessage = "Limite de caracteres => 10")]

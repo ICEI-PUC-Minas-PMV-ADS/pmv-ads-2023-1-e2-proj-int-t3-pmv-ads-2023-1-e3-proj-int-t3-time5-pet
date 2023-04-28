@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\app-adocao.props" />
+</Project>

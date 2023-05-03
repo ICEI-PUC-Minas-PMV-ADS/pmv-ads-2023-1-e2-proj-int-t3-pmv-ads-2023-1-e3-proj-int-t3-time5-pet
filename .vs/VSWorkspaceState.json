@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app-adocao"
+    "\\app-adocao",
+    "\\app-adocao\\app-adocao",
+    "\\app-adocao\\app-adocao\\Models"
   ],
-  "SelectedNode": "\\app-adocao\\app-adocao.sln",
+  "SelectedNode": "\\app-adocao\\app-adocao\\Models\\Pet.cs",
   "PreviewInSolutionExplorer": false
 }

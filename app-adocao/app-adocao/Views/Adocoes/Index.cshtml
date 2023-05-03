@@ -1,0 +1,53 @@
+﻿@model IEnumerable<app_adocao.Models.Adocao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requerente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pet)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requerente.Login)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pet.Cor)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AdocaoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AdocaoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AdocaoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

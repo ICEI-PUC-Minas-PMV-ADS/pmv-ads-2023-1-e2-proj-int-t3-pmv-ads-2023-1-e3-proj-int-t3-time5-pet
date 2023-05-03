@@ -21,9 +21,8 @@ namespace app_adocao.Controllers
         // GET: Pets
         public async Task<IActionResult> Index()
         {
-              return _context.Pets != null ? 
-                          View(await _context.Pets.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Pets'  is null.");
+            var applicationDbContext = _context.Pets.Include(p => p.Responsavel);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Pets/Details/5
@@ -35,6 +34,7 @@ namespace app_adocao.Controllers
             }
 
             var pet = await _context.Pets
+                .Include(p => p.Responsavel)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (pet == null)
             {
@@ -47,6 +47,7 @@ namespace app_adocao.Controllers
         // GET: Pets/Create
         public IActionResult Create()
         {
+            ViewData["Dono"] = new SelectList(_context.Responsaveis, "Login", "Login");
             return View();
         }
 
@@ -63,6 +64,7 @@ namespace app_adocao.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Dono"] = new SelectList(_context.Responsaveis, "Login", "Login", pet.Dono);
             return View(pet);
         }
 
@@ -79,6 +81,7 @@ namespace app_adocao.Controllers
             {
                 return NotFound();
             }
+            ViewData["Dono"] = new SelectList(_context.Responsaveis, "Login", "Login", pet.Dono);
             return View(pet);
         }
 
@@ -114,6 +117,7 @@ namespace app_adocao.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Dono"] = new SelectList(_context.Responsaveis, "Login", "Login", pet.Dono);
             return View(pet);
         }
 
@@ -126,6 +130,7 @@ namespace app_adocao.Controllers
             }
 
             var pet = await _context.Pets
+                .Include(p => p.Responsavel)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (pet == null)
             {

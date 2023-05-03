@@ -14,5 +14,7 @@ namespace app_adocao.Models
         [DisplayName("Raça")]
         [StringLength(20, ErrorMessage = "Limite de caracteres => 20")]
         public string? Raca { get; set; }
+
+        public ICollection<Adocao>? Adocoes { get; set; }
     }
 }

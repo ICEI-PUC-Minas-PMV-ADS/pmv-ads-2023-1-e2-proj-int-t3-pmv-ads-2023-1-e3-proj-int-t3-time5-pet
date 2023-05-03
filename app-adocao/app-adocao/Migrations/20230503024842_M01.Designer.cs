@@ -12,7 +12,7 @@ using app_adocao.Models;
 namespace app_adocao.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230427235635_M01")]
+    [Migration("20230503024842_M01")]
     partial class M01
     {
         /// <inheritdoc />
@@ -24,6 +24,41 @@ namespace app_adocao.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("app_adocao.Models.Adocao", b =>
+                {
+                    b.Property<int>("AdocaoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdocaoId"));
+
+                    b.Property<string>("Adotante")
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("IdPet")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ResponsavelLogin")
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("AdocaoId");
+
+                    b.HasIndex("Adotante");
+
+                    b.HasIndex("IdPet");
+
+                    b.HasIndex("ResponsavelLogin");
+
+                    b.ToTable("Adocao");
+                });
 
             modelBuilder.Entity("app_adocao.Models.Pet", b =>
                 {
@@ -54,13 +89,12 @@ namespace app_adocao.Migrations
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
-                    b.Property<string>("Sexo")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                    b.Property<int>("Sexo")
+                        .HasMaxLength(1)
+                        .HasColumnType("int");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
@@ -68,6 +102,8 @@ namespace app_adocao.Migrations
                         .HasColumnType("nvarchar(12)");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("Dono");
 
                     b.ToTable("Pets");
                 });
@@ -133,6 +169,34 @@ namespace app_adocao.Migrations
                     b.ToTable("Responsavel");
                 });
 
+            modelBuilder.Entity("app_adocao.Models.Adocao", b =>
+                {
+                    b.HasOne("app_adocao.Models.Requerente", "Requerente")
+                        .WithMany("Adocoes")
+                        .HasForeignKey("Adotante");
+
+                    b.HasOne("app_adocao.Models.Pet", "Pet")
+                        .WithMany()
+                        .HasForeignKey("IdPet");
+
+                    b.HasOne("app_adocao.Models.Responsavel", null)
+                        .WithMany("Adocoes")
+                        .HasForeignKey("ResponsavelLogin");
+
+                    b.Navigation("Pet");
+
+                    b.Navigation("Requerente");
+                });
+
+            modelBuilder.Entity("app_adocao.Models.Pet", b =>
+                {
+                    b.HasOne("app_adocao.Models.Responsavel", "Responsavel")
+                        .WithMany("Pets")
+                        .HasForeignKey("Dono");
+
+                    b.Navigation("Responsavel");
+                });
+
             modelBuilder.Entity("app_adocao.Models.Requerente", b =>
                 {
                     b.HasOne("app_adocao.Models.Usuario", null)
@@ -149,6 +213,18 @@ namespace app_adocao.Migrations
                         .HasForeignKey("app_adocao.Models.Responsavel", "Login")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("app_adocao.Models.Requerente", b =>
+                {
+                    b.Navigation("Adocoes");
+                });
+
+            modelBuilder.Entity("app_adocao.Models.Responsavel", b =>
+                {
+                    b.Navigation("Adocoes");
+
+                    b.Navigation("Pets");
                 });
 #pragma warning restore 612, 618
         }

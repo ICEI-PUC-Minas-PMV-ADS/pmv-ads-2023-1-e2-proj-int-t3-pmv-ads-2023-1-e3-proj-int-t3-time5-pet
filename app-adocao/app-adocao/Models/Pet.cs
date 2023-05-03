@@ -20,6 +20,9 @@ namespace app_adocao.Models
         [StringLength(10, ErrorMessage = "Limite de caracteres => 10")]
         public string? Dono { get; set; }
 
+        [ForeignKey("Dono")]
+        public Responsavel? Responsavel { get; set; }
+
         [Required]
         public DateTime DataNascimento { get; set; }
 
@@ -38,14 +41,11 @@ namespace app_adocao.Models
         [StringLength(100, ErrorMessage = "Limite de caracteres => 100")]
         public string? Historico { get; set; }
 
-        [StringLength(1, ErrorMessage = "Limite de caracteres => 1")]
         public Sexo Sexo { get; set; }
 
         [Required(ErrorMessage = "Obrigatória escolha da cor do Pet!")]
         [StringLength(10, ErrorMessage = "Limite de caracteres => 10")]
         public string? Cor { get; set; }
-
-
 
     }
 }

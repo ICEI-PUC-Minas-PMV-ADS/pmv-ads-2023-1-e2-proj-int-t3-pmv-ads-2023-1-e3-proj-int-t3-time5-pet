@@ -59,6 +59,7 @@ namespace app_adocao.Controllers
         {
             if (ModelState.IsValid)
             {
+                responsavel.Senha = BCrypt.Net.BCrypt.HashPassword(responsavel.Senha);
                 _context.Add(responsavel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -98,6 +99,7 @@ namespace app_adocao.Controllers
             {
                 try
                 {
+                    responsavel.Senha = BCrypt.Net.BCrypt.HashPassword(responsavel.Senha);
                     _context.Update(responsavel);
                     await _context.SaveChangesAsync();
                 }

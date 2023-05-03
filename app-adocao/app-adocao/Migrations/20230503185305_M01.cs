@@ -17,7 +17,7 @@ namespace app_adocao.Migrations
                 {
                     Login = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     Nome = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    Senha = table.Column<string>(type: "nvarchar(6)", maxLength: 6, nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cidade = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     Estado = table.Column<string>(type: "nvarchar(2)", maxLength: 2, nullable: false)
                 },
@@ -75,7 +75,7 @@ namespace app_adocao.Migrations
                     Status = table.Column<int>(type: "int", nullable: false),
                     Tipo = table.Column<string>(type: "nvarchar(12)", maxLength: 12, nullable: false),
                     Historico = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
-                    Sexo = table.Column<int>(type: "int", maxLength: 1, nullable: false),
+                    Sexo = table.Column<int>(type: "int", nullable: false),
                     Cor = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false)
                 },
                 constraints: table =>

@@ -59,6 +59,7 @@ namespace app_adocao.Controllers
         {
             if (ModelState.IsValid)
             {
+                requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
                 _context.Add(requerente);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -98,6 +99,7 @@ namespace app_adocao.Controllers
             {
                 try
                 {
+                    requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
                     _context.Update(requerente);
                     await _context.SaveChangesAsync();
                 }

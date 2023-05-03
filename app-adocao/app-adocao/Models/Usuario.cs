@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BCrypt.Net;
+using System.ComponentModel.DataAnnotations;
 
 namespace app_adocao.Models
 {
@@ -12,8 +13,8 @@ namespace app_adocao.Models
         [StringLength(20,ErrorMessage = "Limite de caracteres => 20")]
         public string? Nome { get; set; }
 
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Obrigatório o preenchimento do Senha!")]
-        [StringLength(6,MinimumLength =6,ErrorMessage = "Quantidade de caracteres necessário => 6")]
         public string? Senha { get; set; }
 
         [Required(ErrorMessage = "Obrigatório o preenchimento da Cidade!")]

@@ -87,7 +87,6 @@ namespace app_adocao.Migrations
                         .HasColumnType("nvarchar(15)");
 
                     b.Property<int>("Sexo")
-                        .HasMaxLength(1)
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
@@ -128,8 +127,7 @@ namespace app_adocao.Migrations
 
                     b.Property<string>("Senha")
                         .IsRequired()
-                        .HasMaxLength(6)
-                        .HasColumnType("nvarchar(6)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Login");
 

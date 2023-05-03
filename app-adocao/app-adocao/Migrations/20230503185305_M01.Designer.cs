@@ -12,7 +12,7 @@ using app_adocao.Models;
 namespace app_adocao.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230503024842_M01")]
+    [Migration("20230503185305_M01")]
     partial class M01
     {
         /// <inheritdoc />
@@ -90,7 +90,6 @@ namespace app_adocao.Migrations
                         .HasColumnType("nvarchar(15)");
 
                     b.Property<int>("Sexo")
-                        .HasMaxLength(1)
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
@@ -131,8 +130,7 @@ namespace app_adocao.Migrations
 
                     b.Property<string>("Senha")
                         .IsRequired()
-                        .HasMaxLength(6)
-                        .HasColumnType("nvarchar(6)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Login");
 

@@ -11,6 +11,7 @@ namespace app_adocao.Models
         Finalizada,
         Cancelada
     }
+
     [Table("Adocao")]
     public class Adocao
     {

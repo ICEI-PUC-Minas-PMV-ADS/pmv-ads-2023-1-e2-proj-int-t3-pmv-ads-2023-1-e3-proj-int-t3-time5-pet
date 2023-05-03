@@ -48,7 +48,7 @@ namespace app_adocao.Controllers
         // GET: Adocoes/Create
         public IActionResult Create()
         {
-            ViewData["IdPet"] = new SelectList(_context.Pets, "ID", "Cor");
+            ViewData["IdPet"] = new SelectList(_context.Pets, "ID", "Nome");
             ViewData["Adotante"] = new SelectList(_context.Requerentes, "Login", "Login");
             return View();
         }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WnuNDRoNwRc2t7XkStLRqQ9/G2AKXlrYPaMD6uhzEgwhGIQnb6cGNe6N1+gcEngrezuNEo1R2iJyZnL1fcMGTA==",
+  "dgSpecHash": "SWMT5JuxQRQLlV/mdQFi82HDs0LpwTTWPp5u6QTcPfqQYgzHsY75dazQZ7WlPwJhO+HdMVnmBcNgXwp0zTHTqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\astor\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet\\app-adocao\\app-adocao\\app-adocao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\astor\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\astor\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\astor\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\astor\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\astor\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\astor\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

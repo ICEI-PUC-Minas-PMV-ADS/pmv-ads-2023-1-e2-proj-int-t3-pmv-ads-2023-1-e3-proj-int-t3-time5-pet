@@ -1,4 +1,5 @@
 ﻿using app_adocao.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 namespace app_adocao
@@ -17,9 +18,21 @@ namespace app_adocao
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
 
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => {
+                    options.AccessDeniedPath = "/Usuarios/AccessDenied/";
+                    options.LoginPath = "/Usuarios/Login/";
+                });
+
             // Add services to the container.
             services.AddControllersWithViews();
-
         }
         public void Configure(WebApplication app, IWebHostEnvironment environment)
         {
@@ -34,14 +47,17 @@ namespace app_adocao
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
-
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.UseCookiePolicy();
+
+            app.UseRouting();
+
+            app.UseAuthentication();
         }
     }
 

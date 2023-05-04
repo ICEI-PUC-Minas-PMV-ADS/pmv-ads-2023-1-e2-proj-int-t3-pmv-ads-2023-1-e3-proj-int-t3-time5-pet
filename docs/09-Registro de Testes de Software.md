@@ -16,6 +16,11 @@ CT-01- Cadastrar o responsável pelo pet em situação de adoção
 
 CT-02-Cadastrar pet em situação de adoção
 
+![Captura de Tela (934)](https://user-images.githubusercontent.com/117127986/236288632-76e56675-8a68-4bed-a6c8-eb8b51f25540.png)
+
+![Captura de Tela (935)](https://user-images.githubusercontent.com/117127986/236288708-3d464493-2dba-45eb-bbb6-cf37a03304d3.png)
+
+
 CT-03- Cadastrar requerente da adoção
 
 CT-04- Efetuar login

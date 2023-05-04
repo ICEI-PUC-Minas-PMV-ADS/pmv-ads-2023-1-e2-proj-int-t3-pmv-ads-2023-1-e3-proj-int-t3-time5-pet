@@ -5,6 +5,8 @@
 Os resultados obtidos nos testes de software são descritos a seguir:
 
 CT-01- Cadastrar o responsável pelo pet em situação de adoção
+![Captura de Tela (931)](https://user-images.githubusercontent.com/117127986/236287765-59bf11c9-a53d-401c-aa5d-8d846c7be3fe.png)
+
 
 CT-02-Cadastrar pet em situação de adoção
 

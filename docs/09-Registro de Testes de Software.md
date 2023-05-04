@@ -9,3 +9,10 @@ CT-01- Cadastrar o responsável pelo pet em situação de adoção
 CT-02-Cadastrar pet em situação de adoção
 
 CT-03- Cadastrar requerente da adoção
+
+CT-04- Efetuar login
+
+CT-05- Efetuar a adoção
+
+CT-06- Informações de cadastro.
+

@@ -8,10 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using app_adocao.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Identity.Client;
 
 namespace app_adocao.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,11 +23,13 @@ namespace app_adocao.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login([Bind("Login,Senha")] Usuario usuario)
         {
@@ -44,7 +48,7 @@ namespace app_adocao.Controllers
             {
                 var Claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name,user.Nome),
+                    new Claim(ClaimTypes.Name, user.Nome),
                     new Claim(ClaimTypes.NameIdentifier, user.Nome )
                 };
 
@@ -68,15 +72,18 @@ namespace app_adocao.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public IActionResult AccesDenied()
         {
             return View();
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "Usuarios");
+            //return RedirectToAction("Login", "Usuarios");
+            return Redirect("/");
         }
     }
 }

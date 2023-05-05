@@ -51,9 +51,9 @@ namespace app_adocao
 
             app.UseCookiePolicy();
 
-            app.UseAuthorization();
-
             app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoint =>
             {

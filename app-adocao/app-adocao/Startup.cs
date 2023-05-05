@@ -47,17 +47,20 @@ namespace app_adocao
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseAuthorization();
-
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.UseRouting();
 
             app.UseCookiePolicy();
 
-            app.UseRouting();
+            app.UseAuthorization();
 
             app.UseAuthentication();
+
+            app.UseEndpoints(endpoint =>
+            {
+                endpoint.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 

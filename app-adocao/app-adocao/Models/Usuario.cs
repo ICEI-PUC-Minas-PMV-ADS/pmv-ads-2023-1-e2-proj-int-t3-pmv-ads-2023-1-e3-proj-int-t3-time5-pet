@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace app_adocao.Models
 {
-    public abstract class Usuario
+    public class Usuario
     {
         [Key]
         [StringLength(10,ErrorMessage ="Limite de caracteres => 10")]

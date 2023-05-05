@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using app_adocao.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.Identity.Client;
 
 namespace app_adocao.Controllers
 {
@@ -70,6 +71,12 @@ namespace app_adocao.Controllers
         public IActionResult AccesDenied()
         {
             return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Usuarios");
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZlBsXcBwLByk9cYLMCqjtqv6FeJ7QdAmX82Qf5gmBnw=",
+  "Hash": "++GTQwVzank4fyka4d8ELEWxoguDtq2FCtVvI9VnEqg=",
   "Source": "app-adocao",
   "BasePath": "_content/app-adocao",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\astor\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet\\app-adocao\\app-adocao\\wwwroot\\images\\Adocao-Home.jpeg",
+      "SourceId": "app-adocao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\astor\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet\\app-adocao\\app-adocao\\wwwroot\\",
+      "BasePath": "_content/app-adocao",
+      "RelativePath": "images/Adocao-Home.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Adocao-Home.jpeg"
     },
     {
       "Identity": "C:\\Users\\astor\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet\\app-adocao\\app-adocao\\wwwroot\\js\\site.js",

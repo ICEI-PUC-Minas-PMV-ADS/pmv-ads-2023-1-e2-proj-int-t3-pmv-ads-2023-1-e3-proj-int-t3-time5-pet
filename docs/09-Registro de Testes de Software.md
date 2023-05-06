@@ -34,4 +34,6 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 ![image](https://user-images.githubusercontent.com/95951195/236644885-74ec14ae-00cd-4600-a285-e18092213992.png)
 ![image](https://user-images.githubusercontent.com/95951195/236645245-03ae7542-3b9f-4353-a8b4-91ca137f5a1b.png)
 ![image](https://user-images.githubusercontent.com/95951195/236645482-f06f06ac-43d6-4bdb-81ae-5584ad031c4e.png)
+![image](https://user-images.githubusercontent.com/95951195/236646655-09069599-a867-4114-89b6-f905495264ad.png)
+
 

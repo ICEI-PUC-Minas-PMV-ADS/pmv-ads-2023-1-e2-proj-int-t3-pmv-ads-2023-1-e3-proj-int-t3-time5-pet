@@ -33,4 +33,4 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 ## CT-06- Informações de cadastro
 ![image](https://user-images.githubusercontent.com/95951195/236644885-74ec14ae-00cd-4600-a285-e18092213992.png)
 
-![image](https://user-images.githubusercontent.com/95951195/236644004-de0d0ad8-ddcb-45c2-a412-bfbc1d8d0ac4.png)
+![image](https://user-images.githubusercontent.com/95951195/236645245-03ae7542-3b9f-4353-a8b4-91ca137f5a1b.png)

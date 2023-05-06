@@ -7,13 +7,17 @@
 <h4>Login</h4>
 
 <hr />
-<div class="row">
+<h1 style="display: flex;justify-content: center;color: #808080b3;">
+    Bem-vindos ao Adocão
+</h1>
+<div class="row" style="background:#E9E9E9;border-radius: 10px;height: 300px;align-items: center;justify-content: center;">
     <div class="col-md-4">
+        <h2 style="color: #646464">Acesse sua conta:</h2>
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Login" class="control-label"></label>
-                <input asp-for="Login" class ="form-control">
+                <input asp-for="Login" class="form-control">
             </div>
             <div class="form-group">
                 <label asp-for="Senha" class="control-label"></label>
@@ -22,13 +26,15 @@
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Entrar" class="btn btn-primary" />
-                <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Voltar</a>
+                <input type="submit" value="Entrar" class="btn btn-secondary" style="background-color: gray;" />
+                <a class="btn btn-secondary" style="background-color: gray;" asp-controller="Home" asp-action="Index">Voltar</a>
             </div>
         </form>
     </div>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -31,5 +31,6 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 ## CT-05- Efetuar a adoção
 
 ## CT-06- Informações de cadastro
-![image](https://user-images.githubusercontent.com/95951195/236643987-43f9b9ed-b406-4352-88d3-5a599ac8ab8c.png)
+![image](https://user-images.githubusercontent.com/95951195/236644885-74ec14ae-00cd-4600-a285-e18092213992.png)
+
 ![image](https://user-images.githubusercontent.com/95951195/236644004-de0d0ad8-ddcb-45c2-a412-bfbc1d8d0ac4.png)

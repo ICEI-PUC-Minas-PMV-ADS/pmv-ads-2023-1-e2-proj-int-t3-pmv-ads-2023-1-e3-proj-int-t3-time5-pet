@@ -13,7 +13,7 @@ using Microsoft.Identity.Client;
 
 namespace app_adocao.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -65,7 +65,7 @@ namespace app_adocao.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                return Redirect("/");
+                return RedirectToAction("Responsavel", "Responsaveis");
             }
 
             ViewBag.Message = "Usuário e/ou senha Inválida!";

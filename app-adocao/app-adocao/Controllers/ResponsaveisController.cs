@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace app_adocao.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class ResponsaveisController : Controller
     {
         private readonly ApplicationDbContext _context;

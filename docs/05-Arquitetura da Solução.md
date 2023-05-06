@@ -29,10 +29,6 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 - https://app.diagrams.net/
 
 ## Hospedagem
-A aplicação será hospedada em Microsof Azure com database MySQL, através da opção Publish do Microsoft Visual Studio.
+A aplicação será hospedada em Microsof Azure com database SQL, através da opção Publish do Microsoft Visual Studio.
 
-> **Links Úteis**:
->
-> - [Website com HTML, CSS e BOOTSTRAP](https://pages.github.com/)
-> - [Programação colaborativa com GitHub]
- -->
+

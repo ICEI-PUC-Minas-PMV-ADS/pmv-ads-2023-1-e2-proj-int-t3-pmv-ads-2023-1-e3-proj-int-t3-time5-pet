@@ -40,7 +40,7 @@ Para o ciclo de testes definimos como prioridade os seguintes usuários: Tutores
 |ID    | Resultados Pós Teste | 
 |------|-----------------------------------------|
 |CTU-001| Os usuários não compreendem o funcionamento do processo de adoção realizado no sistema |
-|CTU-002| sistema carece do campo “cor” no filtro dos pets |
+|CTU-002| O sistema carece do campo “cor” no filtro dos pets |
 |CTU-003| Os usuários encontram dificuldade no preenchimento dos formulários |
 |CTU-004| O sistema carece de um campo de cadastro para pets com necessidades especiais  |
 |CTU-005| O sistema possui um menu intuitvo   |

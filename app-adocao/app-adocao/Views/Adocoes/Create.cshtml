@@ -4,12 +4,15 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<div class="d-flex justify-content-center align-items-center flex-column">
+    <h1 style="color: crimson;">Realize a adoção</h1>
 
-<h4>Adocao</h4>
+    <h4>Formulário de adoção:</h4>
+</div>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+
+<div class="row justify-content-center align-items-center">
+    <div class="col-md-4 rounded" style="background: lightgrey;">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -24,24 +27,27 @@
             </div>
             <div class="form-group">
                 <label asp-for="Adotante" class="control-label"></label>
-                <select asp-for="Adotante" class ="form-control" asp-items="ViewBag.Adotante"></select>
+                <select asp-for="Adotante" class="form-control" asp-items="ViewBag.Adotante"></select>
             </div>
             <div class="form-group">
                 <label asp-for="IdPet" class="control-label"></label>
-                <select asp-for="IdPet" class ="form-control" asp-items="ViewBag.IdPet"></select>
+                <select asp-for="IdPet" class="form-control" asp-items="ViewBag.IdPet"></select>
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-secondary rounded" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+
+<div style="color: darkred">
+    <a asp-action="Index">Voltar para o cadastro</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -4,17 +4,19 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<div class="d-flex justify-content-center align-items-center flex-column">
+    <h1 style="color: crimson;">Realize o cadastro de um novo pet:</h1>
+    <h4>Formulário de Pet</h4>
+</div>
 
-<h4>Pet</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="row justify-content-center align-items-center">
+    <div class="col-md-4" style="background: lightgrey;">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Dono" class="control-label"></label>
-                <select asp-for="Dono" class ="form-control" asp-items="ViewBag.Dono"></select>
+                <select asp-for="Dono" class="form-control" asp-items="ViewBag.Dono"></select>
             </div>
             <div class="form-group">
                 <label asp-for="DataNascimento" class="control-label"></label>
@@ -26,43 +28,52 @@
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <select asp-for="Status" asp-items="Html.GetEnumSelectList<Status>()" class="form-control"></select>
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tipo" class="control-label"></label>
-                <input asp-for="Tipo" class="form-control" />
-                <span asp-validation-for="Tipo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Historico" class="control-label"></label>
-                <input asp-for="Historico" class="form-control" />
-                <span asp-validation-for="Historico" class="text-danger"></span>
-            </div>
+
             <div class="form-group">
                 <label asp-for="Sexo" class="control-label"></label>
                 <select asp-for="Sexo" asp-items="Html.GetEnumSelectList<Sexo>()" class="form-control"></select>
                 <span asp-validation-for="Sexo" class="text-danger"></span>
             </div>
+                <div class="col-md-12">
+                <label for="tipo" class="form-label">Tipo</label>
+                <select class="form-select" name="tipo" id="tipo">
+                    <option selected>Tipo de Pet</option>
+                    <option value="1">Cachorro</option>
+                    <option value="2">Gato</option>
+                    <option value="3">hamsters</option>
+                    <option value="4">Coelho</option>
+                    <option value="5">Outros</option>
+                </select>
+            </div>        
+                       
             <div class="form-group">
                 <label asp-for="Cor" class="control-label"></label>
                 <input asp-for="Cor" class="form-control" />
                 <span asp-validation-for="Cor" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status" asp-items="Html.GetEnumSelectList<Status>()" class="form-control"></select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="col-12 md-12">
+                <label for="content" class="form-label">Historico</label>
+                <textarea class="form-control" rows="5" placeholder="Informações adicionais"></textarea>
+            </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-secondary rounded" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div style="color: darkred">
+    <a asp-action="Index">Voltar para tela de Pets</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

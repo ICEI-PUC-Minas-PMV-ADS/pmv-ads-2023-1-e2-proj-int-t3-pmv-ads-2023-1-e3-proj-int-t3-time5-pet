@@ -9,121 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = app_adocao
 build_property.RootNamespace = app_adocao
-build_property.ProjectDir = D:\Documents\Adocao\app-adocao\app-adocao\
+build_property.ProjectDir = C:\Users\astor\Source\Repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet\app-adocao\app-adocao\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Documents\Adocao\app-adocao\app-adocao
+build_property.MSBuildProjectDirectory = C:\Users\astor\Source\Repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet\app-adocao\app-adocao
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Adocoes/Create.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Adocoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRvY29lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Adocoes/Delete.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Adocoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRvY29lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Adocoes/Details.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Adocoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRvY29lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Adocoes/Edit.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Adocoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRvY29lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Adocoes/Index.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Adocoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRvY29lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Home/Index.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Pets/Create.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Pets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Pets/Delete.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Pets/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Pets/Details.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Pets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Pets/Edit.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Pets/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Pets/Index.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Pets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Requerentes/Create.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Requerentes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVyZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Requerentes/Delete.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Requerentes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVyZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Requerentes/Details.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Requerentes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVyZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Requerentes/Edit.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Requerentes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVyZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Requerentes/Index.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Requerentes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVyZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Responsaveis/Create.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Responsaveis/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Responsaveis/Delete.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Responsaveis/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWlzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Responsaveis/Details.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Responsaveis/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWlzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Responsaveis/Edit.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Responsaveis/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Responsaveis/Index.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Responsaveis/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Shared/Error.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Usuarios/AccesDenied.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Usuarios/AccesDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQWNjZXNEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Usuarios/Login.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Usuarios/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/_ViewImports.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/_ViewStart.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/Adocao/app-adocao/app-adocao/Views/Shared/_Layout.cshtml]
+[C:/Users/astor/Source/Repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/app-adocao/app-adocao/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jux7esyfhc

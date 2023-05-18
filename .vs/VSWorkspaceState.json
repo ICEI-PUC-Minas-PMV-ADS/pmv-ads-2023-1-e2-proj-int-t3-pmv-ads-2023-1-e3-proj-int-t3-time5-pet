@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\app-adocao",
+    "\\app-adocao\\app-adocao",
+    "\\app-adocao\\app-adocao\\Controllers",
+    "\\app-adocao\\app-adocao\\Views",
+    "\\app-adocao\\app-adocao\\Views\\Shared"
   ],
-  "SelectedNode": "\\app-adocao.sln",
+  "SelectedNode": "\\app-adocao\\app-adocao\\Controllers\\UsuariosController.cs",
   "PreviewInSolutionExplorer": false
 }

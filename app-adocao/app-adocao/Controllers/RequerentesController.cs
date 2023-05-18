@@ -59,7 +59,7 @@ namespace app_adocao.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Tipo,Raca,Login,Nome,Senha,Cidade,Estado")] Requerente requerente)
+        public async Task<IActionResult> Create([Bind("Tipo,Raca,Login,Nome,Email,Senha,Cidade,Estado")] Requerente requerente)
         {
             if (ModelState.IsValid)
             {
@@ -92,7 +92,7 @@ namespace app_adocao.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Tipo,Raca,Login,Nome,Senha,Cidade,Estado")] Requerente requerente)
+        public async Task<IActionResult> Edit(string id, [Bind("Tipo,Raca,Email,Login,Nome,Senha,Cidade,Estado")] Requerente requerente)
         {
             if (id != requerente.Login)
             {

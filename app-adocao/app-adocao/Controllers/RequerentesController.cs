@@ -63,7 +63,7 @@ namespace app_adocao.Controllers
         {
             if (ModelState.IsValid)
             {
-                requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
+                //requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
                 _context.Add(requerente);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -94,16 +94,16 @@ namespace app_adocao.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("Tipo,Raca,Email,Login,Nome,Senha,Cidade,Estado")] Requerente requerente)
         {
-            if (id != requerente.Login)
-            {
-                return NotFound();
-            }
+            //if (id != requerente.Login)
+            //{
+              //  return NotFound();
+            //}
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
+                    //requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
                     _context.Update(requerente);
                     await _context.SaveChangesAsync();
                 }

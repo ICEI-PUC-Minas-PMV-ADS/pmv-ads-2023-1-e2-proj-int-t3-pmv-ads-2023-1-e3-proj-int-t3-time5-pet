@@ -38,11 +38,11 @@
                 <label for="tipo" class="form-label">Tipo</label>
                 <select class="form-select" name="tipo" id="tipo">
                     <option selected>Tipo de Pet</option>
-                    <option value="1">Cachorro</option>
-                    <option value="2">Gato</option>
-                    <option value="3">hamsters</option>
-                    <option value="4">Coelho</option>
-                    <option value="5">Outros</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="coelho">Coelho</option>
+                    <option value="outro">Outros</option>
                 </select>
             </div>        
                        
@@ -57,8 +57,8 @@
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
             <div class="col-12 md-12">
-                <label for="content" class="form-label">Historico</label>
-                <textarea class="form-control" rows="5" placeholder="Informações adicionais"></textarea>
+                <label asp-for="Historico" class="form-label">Historico</label>
+                <textarea asp-for="Historico" class="form-control" rows="5" placeholder="Informações adicionais"></textarea>
             </div>
             <br />
             <div class="form-group">

@@ -11,17 +11,17 @@
 <div class="row justify-content-center align-items-center">
     
     <div class="col-md-6">
-        <form>
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="col-md-6">
                 <label for="tipo" class="form-label">Tipo</label>
                 <select class="form-select" name="tipo" id="tipo">
                     <option selected>Tipo de Pet</option>
-                    <option value="1">Cachorro</option>
-                    <option value="2">Gato</option>
-                    <option value="3">hamsters</option>
-                    <option value="4">Coelho</option>
-                    <option value="5">Outros</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="coelho">Coelho</option>
+                    <option value="outro">Outros</option>
                 </select>
             </div>
           
@@ -35,21 +35,17 @@
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
-            <div class="col-md-10">
-             <label for="email" class="form-label">Email</label>
-             <input type="text" class="form-control" id="email" placeholder="Digite o seu e-mail"/>
-            </div>
             <div class="col-md-6">
-                <label for="password" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="password" placeholder="Digite a sua senha" />
+                <label asp-for="Senha" class="form-label">Senha</label>
+                <input asp-for="Senha" type="password" class="form-control" id="password" placeholder="Digite a sua senha" />
             </div>
             <div class="col-md-10">
                 <label asp-for="Login" class="control-label"></label>
                 <input asp-for="Login" class ="form-control" />
             </div>
                 <div class="col-md-6">
-                    <label for="cidade" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" id="cidade" placeholder="Digite a sua cidade" />
+                    <label asp-for="Cidade" class="form-label">Cidade</label>
+                    <input asp-for="Cidade" type="text" class="form-control" id="cidade" placeholder="Digite a sua cidade" />
                 </div>
         
             <div class="col-md-6">
@@ -58,7 +54,10 @@
                 <span asp-validation-for="Estado" class="text-danger"></span>
             </div>
             <br />
-                        
+            
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
         </form>
     </div>
   
@@ -71,13 +70,10 @@
             com o animal a partir desta data, exceto quanto à castração se assim foi pactuado.Declaro ainda, estar ciente de todos os cuidados que este animal exige no que se refere à sua guarda e manutenção, além de conhecer todos os riscos inerentes à espécie
             com o convívio com humanos, estando apto a guardá-lo e vigiá-lo, comprometendo-me a proporcionar-lhe boas condições de alojamento, alimentação, higiene, conforto térmico, assim como espaço físico que possibilite ao animal se exercitar; e, ainda, ambiente
             que lhe proporcione afeto e distância de qualquer risco, crueldade, incluindo isolamento e abandono. Responsabilizo-me por preservar a saúde e integridade do animal e a submetê-lo aos cuidados médico-veterinários sempre que necessário para este fim.
-            Comprometo-me a cumprir toda a legislação vigente, municipal, estadual e federal, relativa à posse de animais. "
+            Comprometo-me a cumprir toda a legislação, municipal, estadual e federal, relativa à posse de animais. "
         </label>
     </div>
 
-</div>
-<div class="text-center">
-    <input type="submit" value="Cadastrar" class="btn btn-primary" />
 </div>
 <p></p>
 <div>

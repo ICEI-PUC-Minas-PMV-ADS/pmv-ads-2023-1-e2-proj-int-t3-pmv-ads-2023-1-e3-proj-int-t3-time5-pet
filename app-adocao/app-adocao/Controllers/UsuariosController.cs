@@ -65,7 +65,7 @@ namespace app_adocao.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                return RedirectToAction("Responsavel", "Responsaveis");
+                return RedirectToAction("Index", "Responsaveis");
             }
 
             ViewBag.Message = "Usuário e/ou senha Inválida!";

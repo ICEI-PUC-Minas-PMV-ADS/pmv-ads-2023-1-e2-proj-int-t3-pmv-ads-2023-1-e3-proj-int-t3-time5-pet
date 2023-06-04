@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Página - Adote</title>
+    <style>
+        
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden; 
+    background-color: rgb(252, 252, 252);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 150vh;
+    width: 100%;
+}
+
+/*início do header*/
+
+.logo img{
+  position: relative;
+  margin-top: 8px;
+  left: 20px;
+  width: 200px;
+  height: 60px;
+}
+
+.banner img{
+    position: absolute;
+    width: 1120px;
+    height: 285px;
+    left: 420px;
+    top: 123px;
+}
+
+.image1 {
+  border-radius: 5px;
+  border: 5px solid #000;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 300px;
+  height: 460px;
+  overflow: hidden;
+  padding: 15px;
+  position: absolute;
+  left: 210px;
+  top: 500px;
+}
+
+.image2 {
+  border-radius: 5px;
+  border: 5px solid #000;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 300px;
+  height: 460px;
+  padding: 15px;
+  position: absolute;
+  left: 610px;
+  top: 500px;
+}
+
+.image3 {
+  border-radius: 5px;
+  border: 5px solid #000;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 300px;
+  height: 460px;
+  padding: 15px;
+  position: absolute;
+  left: 1010px;
+  top: 500px;
+}
+
+.image4 {
+  border-radius: 5px;
+  border: 5px solid #000;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 300px;
+  height: 460px;
+  padding: 15px;
+  position: absolute;
+  left: 1410px;
+  top: 500px;
+}
+
+.btn-adot{ 
+  right: 10px;
+  top: 5px;
+  border: none;
+  color:#fff;
+  text-align: center;
+  border-radius: 40px
+}
+
+.btn-adot a{
+  padding: 3px 10px;
+  height: 30px;
+  border: none;
+  text-decoration: none;
+  border-radius:10px;
+}
+
+.input-select {
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    border-radius: 1.5cm;
+    left: 1450px;
+    top: 410px;
+    width: 220px;
+    height: 45px;
+}  
+
+.input{
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    width: 720px;
+    border-radius: 8cm;
+    height: 60px;
+    left: 600px;
+    top: 400px;
+}
+
+.search-btn{
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    width: 130px;
+    border-radius: 10cm;
+    height: 60px;
+    left: 1190px;
+    top: 400px;
+}
+/*fim do header*/
+
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9e2fba;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footerSide {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 7rem;
+  }
+  .text-copyright {
+    margin-right: 5.5rem;
+    font-size: 16px;
+  }
+  
+  .footer-logo {
+    width: 8rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid #fff;
+  }
+  
+  a {
+    color: #fff;
+    padding-left: 1rem;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 720px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      font-size: 87.5%;
+    }
+  }
+
+/*início do header*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.center{
+    max-width: 1980px;
+    padding: 0 2%;
+    display: flex;
+    margin:0 auto;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.btn-enter a{
+   padding: 3px 10px;
+   background: #fff;
+   height: 30px;
+   border: none;
+   text-decoration: none;
+   border-radius:10px;
+   font-weight: bold;
+}
+
+.btn-cad a{
+    padding: 3px 10px;
+    background: #fff;
+    height: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius:7px;
+ }
+
+.btn {
+    position: absolute;
+    right: 280px;
+    top: 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-enter{ 
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px
+}
+
+
+.btn-cad { 
+    position: absolute;
+    right:295px;
+    top:70px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+header{
+    padding: 0px 0;
+    background-color: #b8b4b9;
+    height: 99px;
+}
+.menu-container{
+    justify-self: space-between;
+    text-align: right;
+    width: 50%;
+}
+
+.menu-container a.active-menu{
+    background-color: #D9D9D9;
+
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 10px;
+    line-height: 40px;
+    transition: 0.8s;
+    padding-top: 30px;
+
+}
+
+.menu-container a:hover{
+    color:#f9b459
+}
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b8b4b9;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footerSide {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 7rem;
+  }
+  .text-copyright {
+    margin-right: 5.5rem;
+    font-size: 16px;
+  }
+  
+  .footer-logo {
+    width: 8rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid #fff;
+  }
+  
+  a {
+    color: #fff;
+    padding-left: 1rem;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 720px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      font-size: 87.5%;
+    }
+  }
+  
+ </style>
+
+ </head>
+ <body>
+<header>
+    <div class="center">
+        <div class="logo">
+            <h3><img src="Assets/LOGO.png" >
+        </div><!--center-->
+    <div class="menu-container">
+      <a href=""><strong>SOBRE</strong></a>
+      <a href=""><strong>REQUISITOS</strong></a>
+      <a href=""><strong>PROCESSO DE ADOÇÃO</strong></a>
+      <a href=""><strong>ADOTE</strong></a>
+      <a href=""><strong>PETS ADOTADOS</strong></a>
+    </div><!--menu-container-->    
+    </div>
+    <div class="btn">
+      <button class="btn-enter" style="font-size: 20px;"><a href=" " style="color:#000000;;"><strong>ENTRAR</strong></a></div>
+      <button class="btn-cad"style="font-size: 12px;"><a href=" " style="color:#000000;"><strong>CADASTRAR</strong></a></div> 
+    </div>
+</header>
+
+<div class="banner">
+    <h1><img src="Assets/Banner.png">
+</div>
+
+<!-- SEARCH BAR -->
+<div class="col-md-6">
+    <div class="header-search">
+        <form>
+            <select class="input-select">
+                <option value="0">Todas as Categorias</option>
+                <option value="1">Estado</option>
+                <option value="1">Cidade</option>
+                <option value="1">ONGs</option>
+                <option value="1">Tutores</option>
+                <option value="1">Espécie</option>
+                <option value="1">Idade</option>
+                <option value="1">Porte</option>
+                <option value="1">Sexo</option>
+                <option value="1">Cor</option>
+            </select>
+            <input class="input">
+            <button class="search-btn">Buscar</button>
+        </form>
+    </div>
+</div>
+<!-- /SEARCH BAR -->
+
+<div class= "container">
+    <div class= "container-image">
+        <div class= "image1" data-title="pet1">
+            <img src="Assets/Gato1.jpg" alt="" width="100%" height="330">
+            <h3>Lelinho &#x02642</h3>
+            <h6>Confins - MG</h6>
+            <h6>Ass. Águia Prata</h6>
+            <div class="btn-adot">
+                <button class="btn-adote" style="font-size: 20px;"><b><a href=" " style="color:#000000;;">ADOTE</b></a></div>   
+            </div>
+        </div>
+    
+        <div class= "image2" data-title="pet2">
+            <img src="Assets/Coelho1.jpg" alt="" width="100%" height="330">
+            <h3>Tonks &#x02642</h3>
+            <h6>São Paulo - SP</h6>
+            <h6>Sweet Angels</h6>
+            <div class="btn-adot">
+                <button class="btn-adote" style="font-size: 20px;"><b><a href=" " style="color:#000000;;">ADOTE</b></a></div>   
+            </div>
+        </div>
+    
+        <div class= "image3" data-title="pet3">
+            <img src="Assets/Cachorro1.jpg" alt="" width="100%" height="330">
+            <h3>Bela &#x02640</h3>
+            <h6>Belo Horizonte - MG</h6>
+            <h6>BH Filhotes</h6>
+            <div class="btn-adot">
+                <button class="btn-adote" style="font-size: 20px;"><b><a href=" " style="color:#000000;;">ADOTE</b></a></div>   
+            </div>
+        </div>
+    
+        <div class= "image4" data-title="pet4">
+            <img src="Assets/Hamster1.jpg" alt="" width="100%" height="330">
+            <h3>Xin &#x02640</h3>
+            <h6>Santa Luzia - MG</h6>
+            <h6>Projeto Adocão</h6>
+            <div class="btn-adot">
+                <button class="btn-adote" style="font-size: 20px;"><b><a href=" " style="color:#000000;;">ADOTE</b></a></div>   
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div style="display: flex; margin-left: 1rem; align-items:
+        center">
+        
+    </div>
+    <span class="text-copyright"><strong>&#169 Desenvolvido por Pet Adocão </strong><span
+      id="ano"><strong>2023</strong></span><strong>- Todos os direitos
+          reservados</strong></span>
+    <div className="footerSide">
+    </div>
+</div>
+
+</body>
+</html>

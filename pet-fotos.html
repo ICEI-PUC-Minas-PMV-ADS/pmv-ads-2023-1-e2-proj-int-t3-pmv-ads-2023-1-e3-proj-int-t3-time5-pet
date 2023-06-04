@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Página - Pets | Fotos</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: rgb(252, 252, 252);
+    min-height: 150vh;
+    width: 100%;
+}
+
+/*início do header*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.center{
+    max-width: 1980px;
+    padding: 0 2%;
+    display: flex;
+    margin:0 auto;
+}
+
+
+
+.btn-enter a{
+    padding: 3px 10px;
+    background: #fff;
+    height: 30px;
+    border: none;
+    text-decoration: none;
+    border-radius:10px;
+    color: #000000;
+}
+
+.btn-cad a{
+    padding: 3px 10px;
+    background: #fff;
+    height: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius:7px;
+    color: #000000;
+}
+
+.btn {
+    position: absolute;
+    right: 280px;
+    top: 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-enter{ 
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0%;
+}
+
+
+.btn-cad { 
+    position: absolute;
+    right:295px;
+    top:70px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0%;
+}
+
+header{
+    padding: 0px 0;
+    background-color: #b8b4b9;
+    height: 99px;
+}
+.menu-container{
+    justify-self: space-between;
+    text-align: right;
+    width: 50%;
+}
+
+.menu-container a.active-menu{
+    background-color: #D9D9D9;
+
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 10px;
+    line-height: 40px;
+    transition: 0.8s;
+    padding-top: 30px;
+
+}
+
+.menu-container a:hover{
+    color:#f9b459
+}
+
+.logo img{
+  position: relative;
+  margin-top: 8px;
+  left: 20px;
+  width: 200px;
+  height: 60px;
+}
+
+.banner img{
+    position: absolute;
+    width: 1120px;
+    height: 285px;
+    left: 420px;
+    top: 123px;
+}
+
+/* fim do header */
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b8b4b9;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footerSide {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 7rem;
+  }
+  .text-copyright {
+    margin-right: 5.5rem;
+    font-size: 16px;
+  }
+  
+  .footer-logo {
+    width: 8rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid #fff;
+  }
+  
+  a {
+    color: #fff;
+    padding-left: 1rem;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 720px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      font-size: 87.5%;
+    }
+  }
+/* fim do footer */
+
+.slider{
+    height: 800px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 20px;
+    top: 440px;
+    left: 100px;
+}
+
+.navigation-bar{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input{
+    display: none;
+}
+
+.manual-btn{
+    border:2px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #fff;
+    transition: 0.4s;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.5s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+.navigation-auto{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+} 
+
+.navigation-auto div{
+    border:2px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #fff;
+}
+
+.pet{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: #C2C2C2;
+        margin: 100px;
+        border-radius: 20px;
+        margin-top: 346px;
+        margin-left:900px ;
+        border:7px solid #000000;
+        width: 800px;
+        height: 800px;
+    }
+
+.info1{
+    padding-left: 70px;
+    grid-template-columns: 1fr 1fr;
+    }
+
+.info2{
+    padding-left: 150px;
+    grid-template-columns: 1fr 1fr;
+    }
+
+label, textarea{
+    display: block;
+    margin-top: 15px;
+}
+
+textarea{
+    margin: 8px 0;
+    width: 250px;
+    height: 30px;
+    resize: none;
+}
+
+.adote-btn{
+    font-size: 25px;
+    background: #e79d4d;
+    border: 0.5;
+    margin-bottom: 1em;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2ox 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 1150px;
+    left: -8%;
+    margin-right: 50%;
+    border-radius: 50px;
+    transform: translate(750%, 355%);
+    display: flex;
+}
+
+</style>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3><img src="Assets/LOGO.png" >
+            </div><!--center-->
+        <div class="menu-container">
+            <a href=""><strong>SOBRE</strong></a>
+            <a href=""><strong>REQUISITOS</strong></a>
+            <a href=""><strong>PROCESSO DE ADOÇÃO</strong></a>
+            <a href=""><strong>ADOTE</strong></a>
+            <a href=""><strong>PETS ADOTADOS</strong></a>
+        </div><!--menu-container-->    
+        </div>
+        <div class="btn">
+            <button class="btn-enter" style="font-size: 20px;"><a href=" " style="color:#000000;;"><strong>ENTRAR</strong></a></div>
+            <button class="btn-cad"style="font-size: 12px;"><a href=" " style="color:#000000;"><strong>CADASTRAR</strong></a></div> 
+        </div>
+    </header>
+    
+    <div class="banner">
+        <h1><img src="Assets/Banner.png">
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+
+            <div class="slide first">
+                <img src="Assets/Cachorro1.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Cachorro2.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Cachorro3.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Cachorro4.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Cachorro5.jpg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+        </div>
+
+        <div class="navigation-bar">
+            <label class= "manual-btn" for="radio1"></label>
+            <label class= "manual-btn" for="radio2"></label>
+            <label class= "manual-btn" for="radio3"></label>
+            <label class= "manual-btn" for="radio4"></label>
+            <label class= "manual-btn" for="radio5"></label>
+        </div>
+    </div>
+
+    <div class="pet">
+        <div class="info1">
+            <label class="nome"><strong>Nome do Pet</strong></label>
+            <textarea placeholder="Akio"></textarea><br>
+
+            <label class="especie"><strong>Espécie</strong></label><br>
+            <textarea placeholder="Cachorro"></textarea><br>
+
+            <label class="idade"><strong>Idade</strong></label><br>
+            <textarea placeholder="9 meses"></textarea><br>
+
+            <label class="sexo"><strong>Sexo</strong></label><br>
+            <textarea placeholder="Macho"></textarea><br>
+
+            <label class="porte"><strong>Porte</strong></label><br>
+            <textarea placeholder="Médio"></textarea><br>
+
+            <label class="castrado"><strong>Castrado</strong></label><br>
+            <textarea placeholder="Não"></textarea><br>
+
+        </div>
+        <div class="info2">
+            <label class="vacinado"><strong>Vacinado</strong></label>
+            <textarea placeholder="Sim"></textarea><br>
+
+            <label class="vermifugado"><strong>Vermifugado</strong></label><br>
+            <textarea placeholder="Sim"></textarea><br>
+
+            <label class="estado"><strong>Estado</strong></label><br>
+            <textarea placeholder="São Paulo"></textarea><br>
+
+            <label class="cidade"><strong>Cidade</strong></label><br>
+            <textarea placeholder="Mogi das Cruzes"></textarea><br>
+
+            <label class="necessidades-especiais"><strong>Esse Pet Requer Necessidades Especiais? Se sim, Quais?</strong></label><br>
+            <textarea placeholder="Não" height="200px"></textarea><br>
+        </div>
+
+        <div class="adote">
+            <button class="adote-btn" type="submit" id="submit"><strong>ADOTAR</strong></button>
+        </div>
+
+    <div class="footer">
+        <div style="display: flex; margin-left: 1rem; align-items:
+            center">
+            
+        </div>
+        <span class="text-copyright"><strong>&#169 Desenvolvido por Pet Adocão </strong><span
+                id="ano"><strong>2023</strong></span><strong>- Todos os direitos
+                    reservados</strong></span>
+        <div className="footerSide">
+        </div>
+    </div>
+    
+</body>
+</html>

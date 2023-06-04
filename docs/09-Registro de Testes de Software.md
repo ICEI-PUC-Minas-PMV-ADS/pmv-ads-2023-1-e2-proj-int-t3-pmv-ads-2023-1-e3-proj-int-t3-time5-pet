@@ -53,10 +53,11 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 
 
 ## CT-07- Erro ao tentar fazer o deploy para o Azure
-#### Development Mode
- `Swapping to Development environment will display more detailed information about the error that occurred.
+**Development Mode**
+ > Swapping to Development environment will display more detailed information about the error that occurred.
 
-The Development environment shouldn't be enabled for deployed applications. It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the Development environment by setting the ASPNETCORE_ENVIRONMENT environment variable to Production and restarting the app.`
+ > The Development environment shouldn't be enabled for deployed applications. It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the Development environment by setting the ASPNETCORE_ENVIRONMENT environment variable to Production and restarting the app.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/95951195/f786c840-f0f9-49de-9986-e8a815c9d62a)
 
 

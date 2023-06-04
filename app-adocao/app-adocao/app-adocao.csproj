@@ -9,6 +9,11 @@
 
   <ItemGroup>
     <Compile Remove="Enums.cs" />
+    <Compile Remove="Views\Responsaveis\Responsavel.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Responsaveis\Responsavel.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

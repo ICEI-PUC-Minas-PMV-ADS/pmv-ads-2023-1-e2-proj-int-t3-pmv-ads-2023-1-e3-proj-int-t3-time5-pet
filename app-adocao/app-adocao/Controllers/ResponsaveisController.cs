@@ -38,8 +38,8 @@ namespace app_adocao.Controllers
                 return NotFound();
             }
 
-            var responsavel = await _context.Responsaveis
-                .FirstOrDefaultAsync(m => m.Login == id);
+            var responsavel = await _context.Responsaveis.Include(r => r.Pets).FirstOrDefaultAsync(r => r.Login == id);
+
             if (responsavel == null)
             {
                 return NotFound();

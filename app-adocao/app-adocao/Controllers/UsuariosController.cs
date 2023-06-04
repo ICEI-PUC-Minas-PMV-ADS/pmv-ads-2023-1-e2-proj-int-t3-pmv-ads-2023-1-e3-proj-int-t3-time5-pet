@@ -10,6 +10,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Identity.Client;
+using Microsoft.Data.SqlClient;
 
 namespace app_adocao.Controllers
 {
@@ -64,8 +65,7 @@ namespace app_adocao.Controllers
                 };
 
                 await HttpContext.SignInAsync(principal, props);
-
-                return RedirectToAction("Index", "Responsaveis");
+                return Redirect($"/Responsaveis/Details/{usuario.Login}");
             }
 
             ViewBag.Message = "Usuário e/ou senha Inválida!";

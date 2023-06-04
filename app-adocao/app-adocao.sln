@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-adocao", "app-adocao\app-adocao.csproj", "{5E9E2F24-E1DE-4CD5-83E7-B6D85FAB6F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app-adocao", "app-adocao\app-adocao.csproj", "{5E9E2F24-E1DE-4CD5-83E7-B6D85FAB6F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

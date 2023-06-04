@@ -5,9 +5,8 @@
     "\\app-adocao\\app-adocao",
     "\\app-adocao\\app-adocao\\Controllers",
     "\\app-adocao\\app-adocao\\Views",
-    "\\app-adocao\\app-adocao\\Views\\Home",
-    "\\app-adocao\\app-adocao\\Views\\Shared"
+    "\\app-adocao\\app-adocao\\Views\\Responsaveis"
   ],
-  "SelectedNode": "\\app-adocao\\app-adocao\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\app-adocao\\app-adocao\\Views\\Responsaveis\\Details.cshtml",
   "PreviewInSolutionExplorer": false
 }

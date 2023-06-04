@@ -60,5 +60,11 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/95951195/f786c840-f0f9-49de-9986-e8a815c9d62a)
 
+## CT-07- Erro ao Testar o Filtro e a Barra de Pesquisa
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/f91f931a-209c-4fc2-9444-e4e505f4ae1a)
+
+
+
+
 
 

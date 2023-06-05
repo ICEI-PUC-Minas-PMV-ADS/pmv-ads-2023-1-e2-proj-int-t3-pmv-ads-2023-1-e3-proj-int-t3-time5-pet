@@ -1,5 +1,4 @@
 # ADOCÃO
-![logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/112135999/acb7a18e-f3d5-49d7-a132-a201b473c8e6)
 
 `Análise e Desenv. de Sistemas`
 

@@ -10,28 +10,28 @@
     <h4>Responsavel</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Contato)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Contato)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Nome)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Cidade)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cidade)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Estado)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Estado)
         </dd>
     </dl>
@@ -78,6 +78,36 @@
                     <a asp-controller="Pets" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                     <a asp-controller="Pets" asp-action="Details" asp-route-id="@item.ID">Details</a> |
                     <a asp-controller="Pets" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Data</th>
+            <th scope="col">Requerente</th>
+            <th scope="col">Pet</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Adocoes)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Adotante)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pet.Nome)
+                </td>
+                <td>
+                    <a asp-controller="Adocoes" asp-action="Edit" asp-route-id="@item.AdocaoId">Edit</a> |
+                    <a asp-controller="Adocoes" asp-action="Details" asp-route-id="@item.AdocaoId">Details</a> |
                 </td>
             </tr>
         }

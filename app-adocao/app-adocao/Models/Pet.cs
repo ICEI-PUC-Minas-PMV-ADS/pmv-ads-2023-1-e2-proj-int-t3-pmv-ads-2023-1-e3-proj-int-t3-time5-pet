@@ -47,5 +47,6 @@ namespace app_adocao.Models
         [StringLength(10, ErrorMessage = "Limite de caracteres => 10")]
         public string? Cor { get; set; }
 
+        public ICollection<Adocao>? Adocoes { get; set; }
     }
 }

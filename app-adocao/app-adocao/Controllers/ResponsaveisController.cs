@@ -30,7 +30,7 @@ namespace app_adocao.Controllers
                           Problem("Entity set 'ApplicationDbContext.Responsaveis'  is null.");
         }
 
-        // GET: Responsaveis/Details/5
+        // GET: Responsaveis/Details1/5
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Responsaveis == null)
@@ -38,7 +38,10 @@ namespace app_adocao.Controllers
                 return NotFound();
             }
 
-            var responsavel = await _context.Responsaveis.Include(r => r.Pets).FirstOrDefaultAsync(r => r.Login == id);
+            var responsavel = await _context.Responsaveis
+                .Include(r => r.Pets).Where(r => r.Login == id)
+                .Include(s => s.Adocoes)
+                .FirstOrDefaultAsync();
 
             if (responsavel == null)
             {

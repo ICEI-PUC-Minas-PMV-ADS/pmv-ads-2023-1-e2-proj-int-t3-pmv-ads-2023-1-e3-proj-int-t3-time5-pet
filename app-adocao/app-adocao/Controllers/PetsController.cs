@@ -39,6 +39,7 @@ namespace app_adocao.Controllers
 
             var pet = await _context.Pets
                 .Include(p => p.Responsavel)
+                .Include(o => o.Adocoes)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (pet == null)
             {

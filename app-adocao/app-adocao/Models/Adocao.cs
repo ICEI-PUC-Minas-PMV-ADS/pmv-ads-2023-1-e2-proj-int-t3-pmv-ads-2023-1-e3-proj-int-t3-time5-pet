@@ -31,10 +31,10 @@ namespace app_adocao.Models
         [ForeignKey("Adotante")]
         public Requerente? Requerente { get; set; }
 
-        
         public int? IdPet { get; set; }
 
         [ForeignKey("IdPet")]
         public Pet? Pet { get; set; }
+
     }
 }

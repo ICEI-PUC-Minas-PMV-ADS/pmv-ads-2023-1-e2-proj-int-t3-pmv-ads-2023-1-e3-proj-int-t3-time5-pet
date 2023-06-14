@@ -34,7 +34,7 @@ namespace app_adocao.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([Bind("Login,Senha")] Usuario usuario)
         {
-            var user = await _context.Usuarios
+            Usuario? user = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Login == usuario.Login);
 
             if (user == null)

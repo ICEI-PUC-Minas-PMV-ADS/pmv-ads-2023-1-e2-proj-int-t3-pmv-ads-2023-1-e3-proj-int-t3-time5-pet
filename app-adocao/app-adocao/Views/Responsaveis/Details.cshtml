@@ -47,6 +47,7 @@
             <th scope="col">Histórico</th>
             <th scope="col">Sexo</th>
             <th scope="col">Cor</th>
+            <th scope="col">Processos</th>
         </tr>
     </thead>
     <tbody>
@@ -75,39 +76,12 @@
                     @Html.DisplayFor(modelItem => item.Cor)
                 </td>
                 <td>
+                    @Html.DisplayFor(modelItem => item.Adocoes.Count())
+                </td>
+                <td>
                     <a asp-controller="Pets" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                     <a asp-controller="Pets" asp-action="Details" asp-route-id="@item.ID">Details</a> |
                     <a asp-controller="Pets" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Data</th>
-            <th scope="col">Requerente</th>
-            <th scope="col">Pet</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Adocoes)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Data)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Adotante)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Pet.Nome)
-                </td>
-                <td>
-                    <a asp-controller="Adocoes" asp-action="Edit" asp-route-id="@item.AdocaoId">Edit</a> |
-                    <a asp-controller="Adocoes" asp-action="Details" asp-route-id="@item.AdocaoId">Details</a> |
                 </td>
             </tr>
         }

@@ -48,5 +48,7 @@ namespace app_adocao.Models
         public string? Cor { get; set; }
 
         public ICollection<Adocao>? Adocoes { get; set; }
+
+
     }
 }

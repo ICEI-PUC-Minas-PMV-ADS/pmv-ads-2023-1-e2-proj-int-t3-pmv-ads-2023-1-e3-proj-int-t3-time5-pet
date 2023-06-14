@@ -40,7 +40,7 @@ namespace app_adocao.Controllers
 
             var responsavel = await _context.Responsaveis
                 .Include(r => r.Pets).Where(r => r.Login == id)
-                .Include(s => s.Adocoes)
+                .Include(h => h.Adocoes).Where(h => h.Login == id)
                 .FirstOrDefaultAsync();
 
             if (responsavel == null)

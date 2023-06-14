@@ -39,6 +39,7 @@ namespace app_adocao.Controllers
             }
 
             var requerente = await _context.Requerentes
+                .Include(m => m.Adocoes).Where(m => m.Login == id)
                 .FirstOrDefaultAsync(m => m.Login == id);
             if (requerente == null)
             {

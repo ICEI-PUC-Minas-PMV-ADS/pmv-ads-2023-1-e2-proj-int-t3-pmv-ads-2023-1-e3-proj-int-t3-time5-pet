@@ -106,6 +106,27 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 ### Resultado do Teste: Falha!
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/ac0f6599-a051-47ee-be97-5b5899e2f503)
 
+## CT-17- Erro ao Impossibilitar que o Usuário Cadastre Cidade e Estados Inexistentes 
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/ac0f6599-a051-47ee-be97-5b5899e2f503)
+
+## CT-18- Erro ao Deletar os Responsáveis 
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/0d0f4d89-a86d-4329-8433-db77d7ecacde)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/06b0a1aa-ce32-4140-980e-5afd88ed5953)
+
+## CT-19- Erro ao Clicar em Detalhes do Cadastro de Responsáveis 
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/890ca464-5fc3-4271-bd53-9e5316cfb2fa)
+
+## CT-20- Erro ao Cadastrar a Foto do Pet no Cadastro (Site Sempre Salva a Foto do Pet Anterior
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/f8a491e8-6acd-4114-9938-97a04a93e497)
+
+## CT-21- Erro ao Realizar Login com o Usuário Criado na Aba de Requerentes 
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/2f82d388-7c02-4085-8ada-c6025a41b69b)
+
 
 
 

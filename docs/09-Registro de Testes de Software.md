@@ -102,6 +102,11 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 
 ![Imagem do WhatsApp de 2023-06-04 à(s) 17 32 26](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/d603e1b8-9d20-42f3-b940-e3d4a8164a4b)
 
+## CT-16- Erro ao Impossibilitar que o Usuário Cadastre Letras no Campo de Contato
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/ac0f6599-a051-47ee-be97-5b5899e2f503)
+
+
 
 
 

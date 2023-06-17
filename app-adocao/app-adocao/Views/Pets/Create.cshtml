@@ -12,7 +12,7 @@
 <hr />
 <div class="row justify-content-center align-items-center">
     <div class="col-md-4" style="background: lightgrey;">
-        <form asp-action="Create">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Dono" class="control-label"></label>
@@ -34,7 +34,7 @@
                 <select asp-for="Sexo" asp-items="Html.GetEnumSelectList<Sexo>()" class="form-control"></select>
                 <span asp-validation-for="Sexo" class="text-danger"></span>
             </div>
-                <div class="col-md-12">
+            <div class="col-md-12">
                 <label for="tipo" class="form-label">Tipo</label>
                 <select class="form-select" name="tipo" id="tipo">
                     <option selected>Tipo de Pet</option>
@@ -44,8 +44,8 @@
                     <option value="coelho">Coelho</option>
                     <option value="outro">Outros</option>
                 </select>
-            </div>        
-                       
+            </div>
+
             <div class="form-group">
                 <label asp-for="Cor" class="control-label"></label>
                 <input asp-for="Cor" class="form-control" />
@@ -64,6 +64,15 @@
             <div class="form-group">
                 <input type="submit" value="Cadastrar" class="btn btn-secondary rounded" />
             </div>
+            <div class="form-group">
+                <label for="fotoPet">Foto do Pet:</label>
+                <input type="file" id="fotoPet" name="fotoPet" onchange="exibirFoto(this)" />
+            </div>
+            <div id="previewFoto"></div>
+
+
+            <input type="submit" value="Enviar" class="btn btn-primary" />
+
         </form>
     </div>
 </div>
@@ -77,3 +86,49 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+<script>
+
+    var fileInput = document.getElementById('fotoPet');
+
+    var previewFoto = document.getElementById('previewFoto');
+
+
+
+    fileInput.addEventListener('change', function (event) {
+
+        var file = event.target.files[0];
+
+        var reader = new FileReader();
+
+
+
+        reader.onload = function () {
+
+            var base64Image = reader.result;
+
+            previewFoto.innerHTML = '<img src="' + base64Image + '" />';
+
+            localStorage.setItem('fotoPet', base64Image);
+
+        };
+
+
+
+        reader.readAsDataURL(file);
+
+    });
+
+
+
+    // Carregar foto do Local Storage ao carregar a página, se existir
+
+    window.addEventListener('load', function () {
+
+        var fotoBase64 = localStorage.getItem('fotoPet');
+
+        if (fotoBase64) {
+            previewFoto.innerHTML = '<img src="' + fotoBase64 + '" />';
+        }
+    });
+</script>

@@ -69,7 +69,8 @@ namespace app_adocao.Controllers
                 responsavel.Senha = BCrypt.Net.BCrypt.HashPassword(responsavel.Senha);
                 _context.Add(responsavel);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect($"/Usuarios/Login/");
+                //Redirect($"/Responsaveis/Details/{responsavel.Login}");
             }
             return View(responsavel);
         }

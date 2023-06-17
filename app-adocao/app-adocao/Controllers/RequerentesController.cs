@@ -66,10 +66,10 @@ namespace app_adocao.Controllers
         {
             if (ModelState.IsValid)
             {
-                //requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
+                requerente.Senha = BCrypt.Net.BCrypt.HashPassword(requerente.Senha);
                 _context.Add(requerente);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect($"/Usuarios/Login/");
             }
             return View(requerente);
         }

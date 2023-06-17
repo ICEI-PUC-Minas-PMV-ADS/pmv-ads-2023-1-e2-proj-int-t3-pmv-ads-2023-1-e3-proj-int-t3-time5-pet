@@ -127,7 +127,10 @@ Os resultados obtidos nos testes de software são descritos a seguir:
 ### Resultado do Teste: Falha!
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/2f82d388-7c02-4085-8ada-c6025a41b69b)
 
-
+## CT-22- Erro ao Adicionar a Tela de Adoções com Visualização das Imagens dos Pets
+### Resultado do Teste: Falha!
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/679d28cc-75be-423c-b067-f98423f5d504)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/6cb8c5ed-c799-4012-b19b-118d5d118209)
 
 
 

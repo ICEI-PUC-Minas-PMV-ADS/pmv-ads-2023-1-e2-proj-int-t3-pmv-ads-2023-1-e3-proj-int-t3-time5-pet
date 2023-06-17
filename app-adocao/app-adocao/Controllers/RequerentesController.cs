@@ -38,9 +38,11 @@ namespace app_adocao.Controllers
                 return NotFound();
             }
 
-            var requerente = await _context.Requerentes
-                .Include(m => m.Adocoes).Where(m => m.Login == id)
+            Requerente? requerente = await _context.Requerentes
+                .Include(m => m.Adocoes.Where(m => m.Requerente.Login == id))
+                .ThenInclude(m => m.Pet)
                 .FirstOrDefaultAsync(m => m.Login == id);
+            
             if (requerente == null)
             {
                 return NotFound();

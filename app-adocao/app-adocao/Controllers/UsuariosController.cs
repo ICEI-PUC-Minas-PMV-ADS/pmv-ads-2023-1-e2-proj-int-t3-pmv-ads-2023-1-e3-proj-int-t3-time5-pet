@@ -37,6 +37,9 @@ namespace app_adocao.Controllers
             Usuario? user = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Login == usuario.Login);
 
+            Responsavel? resp = await _context.Responsaveis
+                .FindAsync(usuario.Login);
+
             if (user == null)
             {
                 ViewBag.Message = "Usuário e/ou senha Inválida!";
@@ -49,8 +52,8 @@ namespace app_adocao.Controllers
             {
                 var Claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, user.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.Nome )
+                    new Claim(ClaimTypes.Name, user.Login),
+                    new Claim(ClaimTypes.NameIdentifier, user.Login)
                 };
 
                 var userIdentifier = new ClaimsIdentity(Claims, "login");
@@ -65,7 +68,15 @@ namespace app_adocao.Controllers
                 };
 
                 await HttpContext.SignInAsync(principal, props);
-                return Redirect($"/Responsaveis/Details/{usuario.Login}");
+
+                if (resp == null)
+                {
+                    return Redirect($"/Requerentes/Details/{usuario.Login}");
+                }
+                else
+                {
+                    return Redirect($"/Responsaveis/Details/{usuario.Login}");
+                }
             }
 
             ViewBag.Message = "Usuário e/ou senha Inválida!";

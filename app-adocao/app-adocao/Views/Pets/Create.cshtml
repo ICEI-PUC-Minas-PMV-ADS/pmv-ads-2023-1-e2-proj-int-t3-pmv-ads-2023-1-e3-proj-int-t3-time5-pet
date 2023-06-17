@@ -69,7 +69,7 @@
 </div>
 
 <div style="color: darkred">
-    <a asp-action="Index">Voltar para tela de Pets</a>
+    <a class="btn btn-outline-danger" asp-controller="Responsaveis" asp-action="Details" asp-route-id=@User.Identity.Name> Voltar </a>
 </div>
 
 @section Scripts {

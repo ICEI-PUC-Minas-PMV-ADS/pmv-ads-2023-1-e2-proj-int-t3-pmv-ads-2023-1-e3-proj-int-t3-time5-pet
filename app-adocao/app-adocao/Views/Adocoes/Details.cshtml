@@ -37,6 +37,17 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.AdocaoId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    @{
+        if (User.Identity.Name != Model.Requerente.Login)
+        {
+            <a asp-controller="Responsaveis" asp-action="Details" asp-route-id=@Model.Pet.Dono> Back to List | </a>
+        }
+        else
+        {
+            <a asp-controller="Requerentes" asp-action="Details" asp-route-id="@Model.Requerente.Login"> Back to List | </a>
+        }
+
+    }
+    
+    <a asp-action="Edit" asp-route-id="@Model?.AdocaoId">Edit</a>
 </div>

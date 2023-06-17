@@ -5,8 +5,9 @@
     "\\app-adocao\\app-adocao",
     "\\app-adocao\\app-adocao\\Controllers",
     "\\app-adocao\\app-adocao\\Views",
+    "\\app-adocao\\app-adocao\\Views\\Pets",
     "\\app-adocao\\app-adocao\\Views\\Responsaveis"
   ],
-  "SelectedNode": "\\app-adocao\\app-adocao.sln",
+  "SelectedNode": "\\app-adocao\\app-adocao\\Views\\Pets\\Details.cshtml",
   "PreviewInSolutionExplorer": false
 }

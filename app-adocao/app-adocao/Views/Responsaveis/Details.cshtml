@@ -4,10 +4,12 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h2>Perfil de Responsável por Pet(s)</h2>
 
 <div>
-    <h4>Responsavel</h4>
+    <h3>Perfil de @User.Identity.Name.ToUpper()</h3>
+    <br />
+    <a asp-action="Create" asp-controller="Pets" class="btn btn-outline-secondary">Inserir Pet</a>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -53,6 +55,11 @@
     <tbody>
         @foreach (var item in Model.Pets)
         {
+            int Cont = 0;
+            @foreach(var i in item.Adocoes)
+            {
+                Cont = Cont + 1;
+            }
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.DataNascimento)
@@ -76,7 +83,7 @@
                     @Html.DisplayFor(modelItem => item.Cor)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Adocoes.Count())
+                    @Cont
                 </td>
                 <td>
                     <a asp-controller="Pets" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |

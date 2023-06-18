@@ -28,11 +28,11 @@
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <!--            <div class="form-group">
                 <label asp-for="Status" class="control-label"></label>
                 <select asp-for="Status" class="form-control"></select>
                 <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
+            </div>-->
             <div class="form-group">
                 <label asp-for="Tipo" class="control-label"></label>
                 <input asp-for="Tipo" class="form-control" />
@@ -43,11 +43,11 @@
                 <input asp-for="Historico" class="form-control" />
                 <span asp-validation-for="Historico" class="text-danger"></span>
             </div>
-            <div class="form-group">
+<!--            <div class="form-group">
                 <label asp-for="Sexo" class="control-label"></label>
                 <select asp-for="Sexo" class="form-control"></select>
                 <span asp-validation-for="Sexo" class="text-danger"></span>
-            </div>
+                        </div>-->
             <div class="form-group">
                 <label asp-for="Cor" class="control-label"></label>
                 <input asp-for="Cor" class="form-control" />
@@ -61,7 +61,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Details" asp-controller="Responsaveis" asp-route-id="@User.Identity.Name">Back to List</a>
 </div>
 
 @section Scripts {

@@ -120,7 +120,7 @@ namespace app_adocao.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return Redirect($"/Responsaveis/Details/{User.Identity.Name}");
             }
             ViewData["Dono"] = new SelectList(_context.Responsaveis, "Login", "Login", pet.Dono);
             return View(pet);

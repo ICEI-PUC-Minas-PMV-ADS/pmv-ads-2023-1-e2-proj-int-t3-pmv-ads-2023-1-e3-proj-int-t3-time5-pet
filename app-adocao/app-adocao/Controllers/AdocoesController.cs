@@ -54,7 +54,7 @@ namespace app_adocao.Controllers
         public IActionResult Create()
         {
             ViewData["IdPet"] = new SelectList(_context.Pets, "ID", "Nome");
-            ViewData["Adotante"] = new SelectList(_context.Requerentes, "Login", "Login");
+            ViewData["Adotante"] = new SelectList(_context.Requerentes.Where(m => m.Login == User.Identity.Name), "Login", "Login");
             return View();
         }
 
@@ -69,7 +69,8 @@ namespace app_adocao.Controllers
             {
                 _context.Add(adocao);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect($"/Requerentes/Details/{User.Identity.Name}");
+                    //RedirectToAction(nameof(Index));
             }
             ViewData["IdPet"] = new SelectList(_context.Pets, "ID", "Cor", adocao.IdPet);
             ViewData["Adotante"] = new SelectList(_context.Requerentes, "Login", "Login", adocao.Adotante);

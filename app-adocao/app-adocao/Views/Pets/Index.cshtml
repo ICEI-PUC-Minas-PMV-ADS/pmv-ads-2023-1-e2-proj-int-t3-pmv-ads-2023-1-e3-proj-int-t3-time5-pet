@@ -51,7 +51,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Responsavel.Login)
+                    @Html.DisplayFor(modelItem => item.Responsavel.Nome)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.DataNascimento)
@@ -75,9 +75,7 @@
                     @Html.DisplayFor(modelItem => item.Cor)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    <a asp-action="Create" asp-controller="Adocoes">Adotar</a>
                 </td>
             </tr>
             }

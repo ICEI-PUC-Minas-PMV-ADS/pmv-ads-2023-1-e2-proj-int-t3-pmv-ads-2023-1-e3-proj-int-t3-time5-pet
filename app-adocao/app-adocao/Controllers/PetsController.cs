@@ -67,7 +67,7 @@ namespace app_adocao.Controllers
             {
                 _context.Add(pet);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect($"/Responsaveis/Details/{User.Identity.Name}");
             }
             ViewData["Dono"] = new SelectList(_context.Responsaveis, "Login", "Login", pet.Dono);
             return View(pet);

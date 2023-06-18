@@ -8,6 +8,6 @@
     "\\app-adocao\\app-adocao\\Views\\Pets",
     "\\app-adocao\\app-adocao\\Views\\Responsaveis"
   ],
-  "SelectedNode": "\\app-adocao\\app-adocao\\Views\\Pets\\Details.cshtml",
+  "SelectedNode": "\\app-adocao\\app-adocao\\Controllers\\PetsController.cs",
   "PreviewInSolutionExplorer": false
 }

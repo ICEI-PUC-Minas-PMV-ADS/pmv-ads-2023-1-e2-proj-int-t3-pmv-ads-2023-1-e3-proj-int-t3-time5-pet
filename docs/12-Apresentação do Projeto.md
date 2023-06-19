@@ -8,10 +8,10 @@ ADOCÃO
 
 ## Identidade Visual (Marca, Design)
 
-##Logo
+**Logo
 ![Logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/67d7ca1d-8fbe-44a9-8e52-528470c6d649)
 
-##Banner
+**Banner**
 ![Banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/23359105-bfd9-49ff-a37a-916024925a16)
 
 ## Conjunto de Slides (Estrutura)

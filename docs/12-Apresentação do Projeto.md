@@ -9,10 +9,10 @@ ADOCÃO
 ## Identidade Visual (Marca, Design)
 
 <h3>Logo</h3>
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/42f14f95-cd71-4049-9520-871cba2da622)
+![0c815791-62a5-4e56-b040-a7a6fae343dd](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/03dd6820-904b-41cc-ba46-ee94caf689a0)
 
 <h3>Banner</h3>
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/2f1d49bc-53cd-4fc9-a130-e5f3944e98c7)
+![a1c018ef-789e-4762-bf94-5ede92b1d25f](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/ef5e68f7-2645-4a31-be8d-a79dc69030bc)
 
 ## Conjunto de Slides (Estrutura)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time5-pet/assets/97962041/a58e44f5-f96d-4ee8-a3d7-30420e041c66)

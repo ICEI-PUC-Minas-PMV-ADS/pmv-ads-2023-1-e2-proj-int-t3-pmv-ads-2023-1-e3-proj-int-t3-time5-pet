@@ -49,5 +49,5 @@ Para ter acesso a aplicação interativa, <a href="https://adocao.azurewebsites.
 
 # Apresentação
 
-<li><a href="(https://www.youtube.com/watch?v=qYuuZgEGVPU)https://www.youtube.com/watch?v=qYuuZgEGVPU"> Apresentação da solução</a></li>
+https://www.youtube.com/watch?v=qYuuZgEGVPU
 
